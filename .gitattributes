@@ -1,0 +1,12 @@
+# Keep GitHub's language stats honest: the repo is Python, but the published
+# dashboard is a single large generated HTML file that would otherwise dominate.
+outputs/*.html linguist-generated=true
+outputs/*.json linguist-generated=true
+
+# Data and pipeline outputs are inputs/results, not source.
+data/*.csv linguist-vendored=true
+outputs/*.csv linguist-generated=true
+
+# Notebooks are source, not generated: they should count toward language stats
+# and render in diffs.
+*.ipynb linguist-detectable=true

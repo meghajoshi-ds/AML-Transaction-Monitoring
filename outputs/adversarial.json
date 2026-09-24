@@ -1,0 +1,72 @@
+[
+  {
+    "scenario": "No evasion (control)",
+    "description": "the system as measured in the write-up",
+    "known_cases": 139,
+    "rules_recall": 1.0,
+    "shipped_recall": 1.0,
+    "shipped_caught": 139,
+    "shipped_alerts": 228,
+    "ml_alone_recall": 0.8633
+  },
+  {
+    "scenario": "Structuring: smaller payments",
+    "description": "pay in at GBP 5.5-6.5k instead of GBP 9-10k",
+    "known_cases": 139,
+    "rules_recall": 0.295,
+    "shipped_recall": 0.4532,
+    "shipped_caught": 63,
+    "shipped_alerts": 155,
+    "ml_alone_recall": 0.6547
+  },
+  {
+    "scenario": "Structuring: slower burst",
+    "description": "space the same payments 10 days apart",
+    "known_cases": 139,
+    "rules_recall": 0.295,
+    "shipped_recall": 0.3381,
+    "shipped_caught": 47,
+    "shipped_alerts": 147,
+    "ml_alone_recall": 0.4532
+  },
+  {
+    "scenario": "Rapid movement: wait 30 hours",
+    "description": "let the funds rest past the 24-hour window",
+    "known_cases": 139,
+    "rules_recall": 0.8201,
+    "shipped_recall": 0.9353,
+    "shipped_caught": 130,
+    "shipped_alerts": 217,
+    "ml_alone_recall": 0.8561
+  },
+  {
+    "scenario": "Rapid movement: keep 30% back",
+    "description": "move 70% of each credit, not 80%+",
+    "known_cases": 139,
+    "rules_recall": 0.8201,
+    "shipped_recall": 0.9209,
+    "shipped_caught": 128,
+    "shipped_alerts": 216,
+    "ml_alone_recall": 0.8273
+  },
+  {
+    "scenario": "Round amounts: add pence",
+    "description": "GBP 9,000.00 becomes GBP 9,000.37",
+    "known_cases": 139,
+    "rules_recall": 1.0,
+    "shipped_recall": 1.0,
+    "shipped_caught": 139,
+    "shipped_alerts": 226,
+    "ml_alone_recall": 0.8561
+  },
+  {
+    "scenario": "All of the above",
+    "description": "a launderer who has worked out every threshold",
+    "known_cases": 139,
+    "rules_recall": 0.1007,
+    "shipped_recall": 0.2806,
+    "shipped_caught": 39,
+    "shipped_alerts": 137,
+    "ml_alone_recall": 0.3165
+  }
+]

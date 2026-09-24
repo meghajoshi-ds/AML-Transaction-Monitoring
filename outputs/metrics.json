@@ -1,0 +1,250 @@
+{
+  "dataset": {
+    "clean_rows": 60059,
+    "positive_rows_in_label_file": 140,
+    "distinct_positive_transactions": 139,
+    "known_positives_surviving_cleaning": 139,
+    "known_positives_lost_in_quarantine": 0,
+    "recall_ceiling": 1.0,
+    "known_positives_lost_note": "cases removed by cleaning can never be recovered by any downstream layer"
+  },
+  "rules_individually": {
+    "structuring": {
+      "alerts": 100,
+      "true_positives": 100,
+      "false_positives": 0,
+      "false_negatives": 39,
+      "recall": 0.7194,
+      "precision": 1.0,
+      "false_positive_rate_of_alerts": 0.0,
+      "alert_rate_of_book": 0.0017
+    },
+    "rapid_movement": {
+      "alerts": 80,
+      "true_positives": 40,
+      "false_positives": 40,
+      "false_negatives": 99,
+      "recall": 0.2878,
+      "precision": 0.5,
+      "false_positive_rate_of_alerts": 0.5,
+      "alert_rate_of_book": 0.0013
+    },
+    "high_risk_country": {
+      "alerts": 5178,
+      "true_positives": 13,
+      "false_positives": 5165,
+      "false_negatives": 126,
+      "recall": 0.0935,
+      "precision": 0.0025,
+      "false_positive_rate_of_alerts": 0.9975,
+      "alert_rate_of_book": 0.0862
+    },
+    "round_amount": {
+      "alerts": 49,
+      "true_positives": 2,
+      "false_positives": 47,
+      "false_negatives": 137,
+      "recall": 0.0144,
+      "precision": 0.0408,
+      "false_positive_rate_of_alerts": 0.9592,
+      "alert_rate_of_book": 0.0008
+    }
+  },
+  "rules_combined_baseline": {
+    "alerts": 5384,
+    "true_positives": 139,
+    "false_positives": 5245,
+    "false_negatives": 0,
+    "recall": 1.0,
+    "precision": 0.0258,
+    "false_positive_rate_of_alerts": 0.9742,
+    "alert_rate_of_book": 0.0896
+  },
+  "unique_contribution": {
+    "structuring": {
+      "alerts_only_this_rule_raises": 98,
+      "known_cases_found_by_no_other_rule": 98
+    },
+    "rapid_movement": {
+      "alerts_only_this_rule_raises": 61,
+      "known_cases_found_by_no_other_rule": 25
+    },
+    "high_risk_country": {
+      "alerts_only_this_rule_raises": 5158,
+      "known_cases_found_by_no_other_rule": 0
+    },
+    "round_amount": {
+      "alerts_only_this_rule_raises": 44,
+      "known_cases_found_by_no_other_rule": 0
+    }
+  },
+  "calibration_sweep": [
+    {
+      "alerts": 2527,
+      "true_positives": 139,
+      "false_positives": 2388,
+      "false_negatives": 0,
+      "recall": 1.0,
+      "precision": 0.055,
+      "false_positive_rate_of_alerts": 0.945,
+      "alert_rate_of_book": 0.0421,
+      "tier_b_threshold_pct": 0.5
+    },
+    {
+      "alerts": 1200,
+      "true_positives": 139,
+      "false_positives": 1061,
+      "false_negatives": 0,
+      "recall": 1.0,
+      "precision": 0.1158,
+      "false_positive_rate_of_alerts": 0.8842,
+      "alert_rate_of_book": 0.02,
+      "tier_b_threshold_pct": 0.75
+    },
+    {
+      "alerts": 964,
+      "true_positives": 139,
+      "false_positives": 825,
+      "false_negatives": 0,
+      "recall": 1.0,
+      "precision": 0.1442,
+      "false_positive_rate_of_alerts": 0.8558,
+      "alert_rate_of_book": 0.0161,
+      "tier_b_threshold_pct": 0.8
+    },
+    {
+      "alerts": 538,
+      "true_positives": 139,
+      "false_positives": 399,
+      "false_negatives": 0,
+      "recall": 1.0,
+      "precision": 0.2584,
+      "false_positive_rate_of_alerts": 0.7416,
+      "alert_rate_of_book": 0.009,
+      "tier_b_threshold_pct": 0.9
+    },
+    {
+      "alerts": 362,
+      "true_positives": 139,
+      "false_positives": 223,
+      "false_negatives": 0,
+      "recall": 1.0,
+      "precision": 0.384,
+      "false_positive_rate_of_alerts": 0.616,
+      "alert_rate_of_book": 0.006,
+      "tier_b_threshold_pct": 0.95
+    },
+    {
+      "alerts": 275,
+      "true_positives": 139,
+      "false_positives": 136,
+      "false_negatives": 0,
+      "recall": 1.0,
+      "precision": 0.5055,
+      "false_positive_rate_of_alerts": 0.4945,
+      "alert_rate_of_book": 0.0046,
+      "tier_b_threshold_pct": 0.975
+    },
+    {
+      "alerts": 219,
+      "true_positives": 139,
+      "false_positives": 80,
+      "false_negatives": 0,
+      "recall": 1.0,
+      "precision": 0.6347,
+      "false_positive_rate_of_alerts": 0.3653,
+      "alert_rate_of_book": 0.0036,
+      "tier_b_threshold_pct": 0.99
+    },
+    {
+      "alerts": 196,
+      "true_positives": 139,
+      "false_positives": 57,
+      "false_negatives": 0,
+      "recall": 1.0,
+      "precision": 0.7092,
+      "false_positive_rate_of_alerts": 0.2908,
+      "alert_rate_of_book": 0.0033,
+      "tier_b_threshold_pct": 0.995
+    },
+    {
+      "alerts": 181,
+      "true_positives": 139,
+      "false_positives": 42,
+      "false_negatives": 0,
+      "recall": 1.0,
+      "precision": 0.768,
+      "false_positive_rate_of_alerts": 0.232,
+      "alert_rate_of_book": 0.003,
+      "tier_b_threshold_pct": 0.999
+    }
+  ],
+  "chosen_tier_b_threshold_pct": 0.99,
+  "threshold_selection": "policy choice, not optimised: retains a corroborated high-risk-country channel. The volume-minimising alternative is tier_a_only.",
+  "tier_a_only": {
+    "alerts": 179,
+    "true_positives": 139,
+    "false_positives": 40,
+    "false_negatives": 0,
+    "recall": 1.0,
+    "precision": 0.7765,
+    "false_positive_rate_of_alerts": 0.2235,
+    "alert_rate_of_book": 0.003
+  },
+  "ml_only_channel": {
+    "alerts": 9,
+    "true_positives": 0,
+    "false_positives": 9,
+    "false_negatives": 139,
+    "recall": 0.0,
+    "precision": 0.0,
+    "false_positive_rate_of_alerts": 1.0,
+    "alert_rate_of_book": 0.0001
+  },
+  "combined_final": {
+    "alerts": 228,
+    "true_positives": 139,
+    "false_positives": 89,
+    "false_negatives": 0,
+    "recall": 1.0,
+    "precision": 0.6096,
+    "false_positive_rate_of_alerts": 0.3904,
+    "alert_rate_of_book": 0.0038
+  },
+  "ml_alone_same_budget": {
+    "alerts": 228,
+    "true_positives": 120,
+    "false_positives": 108,
+    "false_negatives": 19,
+    "recall": 0.8633,
+    "precision": 0.5263,
+    "false_positive_rate_of_alerts": 0.4737,
+    "alert_rate_of_book": 0.0038
+  },
+  "headline": {
+    "baseline_alerts": 5384,
+    "combined_alerts": 228,
+    "alert_volume_reduction_pct": 95.8,
+    "baseline_false_positives": 5245,
+    "combined_false_positives": 89,
+    "false_positive_reduction_pct": 98.3,
+    "baseline_recall": 1.0,
+    "combined_recall": 1.0,
+    "baseline_precision": 0.0258,
+    "combined_precision": 0.6096,
+    "analyst_hours_saved_at_15min_per_alert": 1289.0
+  },
+  "case_management": {
+    "rows": 228,
+    "by_channel": {
+      "rule: targeted typology": 179,
+      "rule: broad screen + anomaly corroboration": 40,
+      "anomaly only": 9
+    },
+    "by_priority": {
+      "high": 185,
+      "low": 28,
+      "medium": 15
+    }
+  }
+}

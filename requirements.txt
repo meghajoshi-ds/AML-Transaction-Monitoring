@@ -1,0 +1,11 @@
+# Pinned to the versions every number in the README was produced with.
+# pandas is pinned deliberately: pandas 3 stores timestamps as datetime64[us],
+# and the rule layer does time arithmetic in nanoseconds. src/timeutils.py makes
+# that unit-independent, and tests cover both, but the pin keeps results exact.
+
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.6.1
+matplotlib==3.10.0
+tabulate==0.9.0
+pytest==8.3.4

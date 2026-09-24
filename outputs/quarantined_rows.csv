@@ -1,0 +1,81 @@
+transaction_id,timestamp,sender_account,receiver_account,amount,currency,sender_country,receiver_country,transaction_type,channel,quarantine_reason
+TXN0012920,2025-02-09 00:51:44,ACC102130,ACC102612,,GBP,Ireland,United States,deposit,unknown,amount_missing
+TXN0018839,2025-09-17 22:29:26,ACC101596,ACC101793,,GBP,United Kingdom,United Kingdom,payment,unknown,amount_missing
+TXN0046320,2025-10-31 13:57:55,ACC101984,ACC102027,-188.5,GBP,Ireland,Canada,deposit,mobile_app,amount_negative
+TXN0056074,2025-12-03 03:42:29,ACC102383,ACC100892,,GBP,Ireland,Malta,transfer,unknown,amount_missing
+TXN0023606,2025-02-14 05:38:54,ACC100660,ACC102240,,GBP,Canada,Spain,deposit,unknown,amount_missing
+TXN0031241,2025-10-10 14:23:59,ACC101526,ACC102062,-128.73,GBP,United States,Australia,deposit,card_payment,amount_negative
+TXN0026255,2025-07-19 12:35:05,ACC100843,ACC101822,,GBP,Netherlands,Australia,deposit,unknown,amount_missing
+TXN0023528,2025-01-05 04:42:53,ACC100815,ACC101902,-247.23,GBP,Netherlands,Ireland,deposit,wire_transfer,amount_negative
+TXN0019958,2025-07-20 09:52:22,ACC102008,ACC101790,,GBP,Netherlands,United States,deposit,unknown,amount_missing
+TXN0052600,2025-07-29 11:40:05,ACC102835,ACC102752,-708.18,GBP,Spain,Spain,transfer,wire_transfer,amount_negative
+TXN0036750,2025-01-28 20:30:29,ACC100460,ACC100465,-162.21,GBP,Spain,France,payment,wire_transfer,amount_negative
+TXN0003187,2025-06-16 23:55:54,ACC101649,ACC101292,,GBP,Australia,Germany,withdrawal,unknown,amount_missing
+TXN0053345,2025-03-21 09:18:16,ACC101728,ACC101967,,GBP,Germany,Australia,withdrawal,unknown,amount_missing
+TXN0029093,2025-10-25 15:44:36,ACC100359,ACC101222,,GBP,United Kingdom,United States,withdrawal,unknown,amount_missing
+TXN0037017,2025-08-08 17:46:05,ACC102255,ACC101387,,GBP,Spain,Canada,deposit,unknown,amount_missing
+TXN0009209,2025-04-13 16:51:32,ACC100020,ACC101330,,GBP,United Kingdom,United Kingdom,deposit,unknown,amount_missing
+TXN0033014,2025-10-17 01:43:33,ACC100375,ACC100300,,GBP,United States,United Kingdom,payment,unknown,amount_missing
+TXN0024919,2025-08-29 05:00:48,ACC101861,ACC102236,,GBP,Canada,Australia,payment,unknown,amount_missing
+TXN0043471,2025-05-04 20:28:05,ACC100928,ACC101708,,GBP,Germany,Australia,transfer,unknown,amount_missing
+TXN0050469,2025-02-26 06:38:09,ACC101897,ACC101957,,GBP,Canada,France,withdrawal,unknown,amount_missing
+TXN0022524,2025-10-29 21:32:50,ACC101333,ACC100656,,GBP,Panama,Australia,deposit,unknown,amount_missing
+TXN0033786,2025-02-09 17:50:19,ACC100471,ACC102323,,GBP,Canada,France,withdrawal,unknown,amount_missing
+TXN0048800,2025-07-23 18:54:20,ACC100543,ACC101475,,GBP,France,Australia,deposit,unknown,amount_missing
+TXN0000557,2025-01-26 01:20:14,ACC100859,ACC100526,,GBP,Ireland,Malta,withdrawal,unknown,amount_missing
+TXN0042316,2025-01-14 04:00:56,ACC100486,ACC101133,,GBP,United States,Spain,transfer,unknown,amount_missing
+TXN0011569,2025-10-25 21:43:59,ACC100644,ACC102269,-962.94,GBP,Canada,Cyprus,withdrawal,mobile_app,amount_negative
+TXN0016767,2025-11-11 06:12:15,ACC102907,ACC101783,,GBP,Netherlands,Ireland,payment,unknown,amount_missing
+TXN0013918,2025-07-21 23:10:33,ACC102326,ACC100700,,GBP,Netherlands,Ireland,payment,unknown,amount_missing
+TXN0007561,2025-09-18 04:14:39,ACC101596,ACC100812,,GBP,United Kingdom,Canada,withdrawal,unknown,amount_missing
+TXN0040342,2025-11-22 19:53:03,ACC101255,ACC102871,,GBP,Spain,Canada,withdrawal,unknown,amount_missing
+TXN0044638,2025-07-17 04:55:01,ACC100226,ACC102511,,GBP,Ireland,Canada,payment,unknown,amount_missing
+TXN0036332,2025-08-27 00:51:31,ACC100541,ACC100502,,GBP,France,Australia,payment,unknown,amount_missing
+TXN0011745,2025-07-09 00:33:28,ACC102348,ACC102815,-2960.0,GBP,United Kingdom,Spain,withdrawal,atm_withdrawal,amount_negative
+TXN0023040,2025-12-14 23:25:06,ACC101105,ACC100387,-407.99,GBP,United Kingdom,Germany,deposit,card_payment,amount_negative
+TXN0035984,2025-11-28 16:20:20,ACC102713,ACC101858,,GBP,Canada,Spain,withdrawal,unknown,amount_missing
+TXN0028625,2025-02-21 12:00:02,ACC100544,ACC102786,,GBP,Ireland,Germany,transfer,unknown,amount_missing
+TXN0054945,2025-09-15 00:18:37,ACC100938,ACC101525,,GBP,France,United Kingdom,withdrawal,unknown,amount_missing
+TXN0021423,2025-05-07 12:49:05,ACC101821,ACC101865,,GBP,United States,United Kingdom,deposit,unknown,amount_missing
+TXN0059412,2025-06-24 06:43:04,ACC102317,ACC101872,,GBP,Spain,Canada,withdrawal,unknown,amount_missing
+TXN0050116,2025-04-15 14:12:03,ACC101070,ACC100692,,GBP,Canada,France,deposit,unknown,amount_missing
+TXN0017009,2025-11-07 04:34:12,ACC100733,ACC102950,,GBP,Ireland,Ireland,withdrawal,unknown,amount_missing
+TXN0005235,2025-03-09 18:19:45,ACC100711,ACC102024,,GBP,France,Germany,deposit,unknown,amount_missing
+TXN0047967,2025-07-04 11:08:04,ACC100342,ACC100766,,GBP,France,Canada,payment,unknown,amount_missing
+TXN0045683,2025-02-24 19:32:57,ACC100773,ACC102062,,GBP,France,Australia,transfer,unknown,amount_missing
+TXN0014991,2025-05-18 19:15:03,ACC101594,ACC100817,,GBP,Netherlands,Spain,payment,unknown,amount_missing
+TXN0003490,2025-10-27 20:41:07,ACC100236,ACC100044,,GBP,Germany,Germany,payment,unknown,amount_missing
+TXN0015537,2025-07-11 02:13:17,ACC100924,ACC100892,-48.4,GBP,Ireland,Malta,withdrawal,wire_transfer,amount_negative
+TXN0029646,2025-07-08 09:13:20,ACC102390,ACC101913,,GBP,Ireland,Ireland,transfer,unknown,amount_missing
+TXN0042747,2025-03-15 01:51:54,ACC101245,ACC101601,-3022.1,GBP,Netherlands,United Kingdom,withdrawal,online_transfer,amount_negative
+TXN0042021,2025-09-28 07:57:36,ACC102307,ACC101725,-148.73,GBP,Cyprus,United States,withdrawal,mobile_app,amount_negative
+TXN0026947,2025-11-25 21:26:41,ACC101028,ACC102344,,GBP,United States,Germany,transfer,unknown,amount_missing
+TXN0003732,2025-10-30 21:18:09,ACC101819,ACC101904,,GBP,Germany,Cayman Islands,withdrawal,unknown,amount_missing
+TXN0049929,2025-11-05 06:30:36,ACC102555,ACC102318,,GBP,Netherlands,Netherlands,deposit,unknown,amount_missing
+TXN0058941,2025-06-15 19:11:27,ACC101241,ACC102061,,GBP,Ireland,Netherlands,payment,unknown,amount_missing
+TXN0039611,2025-07-02 08:22:51,ACC101509,ACC100431,-45.18,GBP,France,Germany,withdrawal,card_payment,amount_negative
+TXN0012727,2025-10-24 10:18:06,ACC100954,ACC101789,,GBP,Germany,Netherlands,withdrawal,unknown,amount_missing
+TXN0046865,2025-12-04 02:46:52,ACC100323,ACC102633,,GBP,United Kingdom,United Kingdom,withdrawal,unknown,amount_missing
+TXN0015499,2025-06-11 23:13:49,ACC102786,ACC101416,,GBP,Germany,Ireland,payment,unknown,amount_missing
+TXN0021176,2025-05-14 03:25:08,ACC102049,ACC101606,-130.71,GBP,France,United States,transfer,unknown,amount_negative
+TXN0018750,2025-10-15 07:47:32,ACC102922,ACC100394,,GBP,United Kingdom,Canada,transfer,unknown,amount_missing
+TXN0012637,2025-06-23 16:49:02,ACC102924,ACC100048,,GBP,Spain,Ireland,withdrawal,unknown,amount_missing
+TXN0059703,2025-10-16 15:39:11,ACC100804,ACC102004,,GBP,Ireland,Malta,deposit,unknown,amount_missing
+TXN0017606,2025-07-13 01:51:09,ACC102392,ACC101566,,GBP,Germany,Germany,deposit,unknown,amount_missing
+TXN0028215,2025-02-26 09:01:36,ACC101087,ACC100239,,GBP,Ireland,Ireland,withdrawal,unknown,amount_missing
+TXN0034429,2025-01-25 23:14:14,ACC101949,ACC100407,-251.52,GBP,Germany,Australia,deposit,card_payment,amount_negative
+TXN0043760,2025-12-01 11:22:32,ACC100134,ACC101350,-1011.88,GBP,Canada,United States,deposit,wire_transfer,amount_negative
+TXN0010200,2025-07-13 05:39:25,ACC100440,ACC102389,,GBP,United Kingdom,Netherlands,deposit,unknown,amount_missing
+TXN0034567,2025-08-29 12:56:25,ACC102363,ACC100407,-119.76,GBP,United Kingdom,Australia,withdrawal,online_transfer,amount_negative
+TXN0015712,2025-07-17 23:29:18,ACC102757,ACC101361,,GBP,France,United Kingdom,transfer,unknown,amount_missing
+TXN0015257,2025-11-08 07:28:33,ACC101232,ACC100943,,GBP,Germany,Ireland,withdrawal,unknown,amount_missing
+TXN0017289,2025-11-11 05:06:28,ACC101061,ACC100325,-404.87,GBP,Ireland,Spain,deposit,card_payment,amount_negative
+TXN0028824,2025-09-28 17:40:06,ACC100046,ACC101088,,GBP,United Kingdom,Germany,transfer,unknown,amount_missing
+TXN0055070,2025-08-07 18:18:12,ACC101656,ACC101019,,GBP,United States,Canada,deposit,unknown,amount_missing
+TXN0048227,2025-11-04 03:51:31,ACC101072,ACC101007,-56.89,GBP,United States,United States,deposit,wire_transfer,amount_negative
+TXN0051901,2025-04-27 23:46:52,ACC101441,ACC101473,-486.12,GBP,Australia,Cyprus,payment,mobile_app,amount_negative
+TXN0009646,2025-12-29 07:58:00,ACC100092,ACC101257,,GBP,Germany,United Kingdom,deposit,unknown,amount_missing
+TXN0033502,2025-08-23 12:15:00,ACC102545,ACC101835,-50.91,GBP,Spain,Spain,payment,online_transfer,amount_negative
+TXN0019747,2025-06-11 09:22:00,ACC100594,ACC101285,,GBP,Netherlands,Netherlands,payment,unknown,amount_missing
+TXN0055985,2025-12-26 07:22:00,ACC101773,ACC102881,,GBP,France,Germany,withdrawal,unknown,amount_missing
+TXN0043563,2025-10-16 16:57:00,ACC102395,ACC100558,,GBP,Netherlands,Australia,transfer,unknown,amount_missing
