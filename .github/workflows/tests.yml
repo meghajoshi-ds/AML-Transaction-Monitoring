@@ -27,3 +27,8 @@ jobs:
           pip install "pandas==${{ matrix.pandas-version }}"
       - name: Run tests
         run: python -m pytest tests/ -q
+
+      # Catches anything that only works because a previous run left files
+      # behind. The CI checkout has no outputs/ directory at all.
+      - name: Pipeline runs from a clean checkout
+        run: python src/run_pipeline.py

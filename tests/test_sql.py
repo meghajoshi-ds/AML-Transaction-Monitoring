@@ -9,14 +9,22 @@ than illustrative.
 import pandas as pd
 import pytest
 
-import config
+import cleaning
 import rules
 import sql_runner
 
 
 @pytest.fixture(scope="module")
 def book():
-    return pd.read_csv(config.CLEAN_TRANSACTIONS, parse_dates=["timestamp"])
+    """Cleaned transactions, built from the raw file rather than read from disk.
+
+    The pipeline writes outputs/transactions_clean.csv, but that file is
+    gitignored as a regenerable intermediate, so it does not exist on a fresh
+    checkout. Deriving it here keeps the suite self-contained: tests should not
+    depend on another command having been run first.
+    """
+    clean, _quarantine, _log = cleaning.clean(verbose=False)
+    return clean
 
 
 @pytest.fixture(scope="module")
