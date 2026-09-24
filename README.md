@@ -120,8 +120,8 @@ Four things come out of this, and the first two matter more than the headline.
 attack. In the five scenarios that actually degrade the rule layer, the model
 catches more than the rules do. Where the rules hold, they stay ahead: the
 control, and the round-amount evasion, which costs the rule layer nothing
-because that rule was contributing nothing. It keys on amount shape, velocity
-and counterparty spread,
+because that rule was contributing nothing. The model keys on amount shape,
+velocity and counterparty spread,
 properties a launderer has to change their actual behaviour to escape rather than
 just a number. This reverses the main result: on static data the rules detect and
 the model filters noise, but under adaptation the roles swap.

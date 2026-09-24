@@ -42,7 +42,7 @@ def structuring_evidence(row, df):
               else "one sender")
     return (f"{len(cluster)} payments {shape} {counterparty} within {WINDOW_DAYS} days "
             f"({detail}), each between {_money(cluster['amount'].min())} and "
-            f"{_money(cluster['amount'].max())} \u2014 all sitting just under the "
+            f"{_money(cluster['amount'].max())} all sitting just under the "
             f"{_money(config.REPORTING_THRESHOLD)} reporting threshold.")
 
 
@@ -72,7 +72,7 @@ def rapid_evidence(row, df):
         gap = (debits["timestamp"].max() - row["timestamp"]).total_seconds() / 3600
         return (f"{_money(row['amount'])} landed in {row['receiver_account']}, and "
                 f"{_money(out)} left again across {len(debits)} payment(s) within "
-                f"{gap:.0f} hours \u2014 {out / row['amount'] * 100:.0f}% of what arrived.")
+                f"{gap:.0f} hours, which is {out / row['amount'] * 100:.0f}% of what arrived.")
     return "Funds moved in and out of the account inside the 24-hour window."
 
 
@@ -82,7 +82,7 @@ def main():
     metrics = json.loads(config.METRICS.read_text())
 
     records = []
-    for _, row in cases.iterrows():
+    for position, (_, row) in enumerate(cases.iterrows(), start=1):
         reasons = [r.strip() for r in row["reason"].split(",")]
         evidence = []
         if "structuring" in reasons:
@@ -97,16 +97,21 @@ def main():
                 f"transaction is also behaviourally unusual.")
         if "round_amount" in reasons:
             evidence.append(
-                f"{_money(row['amount'])} exactly \u2014 a whole-pound amount at size. "
+                f"{_money(row['amount'])} exactly, a whole-pound amount at size. "
                 f"Organic retail payments rarely land on a round number.")
         if row["reason"] == "anomaly score only":
             evidence.append(
                 "No rule fired. The model placed this in the top 0.1% of the book on "
-                "amount shape, timing, velocity and counterparty spread \u2014 the "
+                "amount shape, timing, velocity and counterparty spread: the "
                 "channel that exists for typologies nobody wrote a rule for.")
 
         records.append({
-            "id": row["transaction_id"],
+            # A neutral reference, NOT the source transaction_id. The generator
+            # prefixed planted rows TXNS/TXNR, so publishing the raw id would
+            # let any reader pick out every true case from the prefix alone:
+            # precisely the leak the write-up warns about. The raw id is not
+            # carried into this payload at all.
+            "id": f"ALERT-{position:04d}",
             "ts": row["timestamp"].strftime("%Y-%m-%d %H:%M"),
             "sender": row["sender_account"],
             "receiver": row["receiver_account"],
