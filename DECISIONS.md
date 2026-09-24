@@ -184,8 +184,11 @@ Three results changed how I read my own project.
 **The rule layer is brittle.** 139 cases down to 14 against a launderer who
 knows all four thresholds. Nothing exotic — smaller payments, longer gaps.
 
-**The model is the robust half.** 120 down to 44 under the same attack, and it
-beats the rules in every single evasion scenario. It keys on behaviour rather
+**The model is the robust half.** 120 down to 44 under the same attack. In the
+five scenarios that actually degrade the rule layer it catches more than the
+rules do; where the rules hold (the control, and the round-amount evasion,
+which costs them nothing because that rule was contributing nothing) the rules
+stay ahead. It keys on behaviour rather
 than on a number, so evading it costs the launderer something real. This
 inverts the main finding: on clean data the rules detect and the model
 suppresses noise; under adaptation the roles reverse.

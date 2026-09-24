@@ -7,7 +7,8 @@ actually costs banks money: not missed laundering, but the volume of false alarm
 
 **On 60,059 transactions it cuts false positives by 98.3%, from 5,245 to 89, and
 still catches all 139 known laundering cases. Alert precision rises from 2.6% to
-61%.** That is about 1,289 analyst-hours a year returned to investigation.
+61%.** At a nominal 15 minutes to review and close one alert, that is about
+1,289 analyst-hours a year returned to investigation.
 
 **[Open the interactive analyst queue](https://meghajoshi-ds.github.io/AML-Transaction-Monitoring/)** to filter all 228 alerts
 and see the evidence behind each one.
@@ -115,8 +116,12 @@ Four things come out of this, and the first two matter more than the headline.
 **The rule layer is brittle.** An informed launderer takes it from 139 cases to
 14, using nothing more exotic than smaller payments and longer gaps.
 
-**The model degrades where the rules collapse.** It holds 44 under the same attack and beats the rules in every
-evasion scenario. It keys on amount shape, velocity and counterparty spread,
+**The model degrades where the rules collapse.** It holds 44 under the same
+attack. In the five scenarios that actually degrade the rule layer, the model
+catches more than the rules do. Where the rules hold, they stay ahead: the
+control, and the round-amount evasion, which costs the rule layer nothing
+because that rule was contributing nothing. It keys on amount shape, velocity
+and counterparty spread,
 properties a launderer has to change their actual behaviour to escape rather than
 just a number. This reverses the main result: on static data the rules detect and
 the model filters noise, but under adaptation the roles swap.
@@ -137,7 +142,9 @@ None of this is visible from the 98.3% figure.
 
 Three files, supplied as part of a self-directed project brief and generated
 synthetically for it. The generator is not mine and I cannot attribute it
-further than that. Transaction-level AML data is never public, since it is personal
+further than that. The files are committed here because they are wholly
+synthetic: the names, accounts and transactions are fabricated, and none of it
+derives from a real customer or a real payment. Transaction-level AML data is never public, since it is personal
 financial data under active supervision, so a synthetic book is the only option
 for work like this. The generator produced ordinary retail behaviour plus a small
 number of planted laundering patterns at realistic prevalence.
