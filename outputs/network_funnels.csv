@@ -1,0 +1,8 @@
+receiver_account,inbound_payments,inbound_total,distinct_senders,near_threshold_payments,near_threshold_total,near_threshold_senders,share_near_threshold,is_funnel
+ACC102324,29,119139.39,21,12.0,114126.06,4.0,0.9579,True
+ACC100205,25,109150.81,18,11.0,103744.48,4.0,0.9505,True
+ACC101506,36,112793.25,29,11.0,102832.06999999999,4.0,0.9117,True
+ACC101167,26,110777.82,18,11.0,104487.2,3.0,0.9432,True
+ACC101913,40,111550.18000000001,33,10.0,94414.09,3.0,0.8464,True
+ACC100693,33,84180.25,28,8.0,75470.69,3.0,0.8965,True
+ACC100248,22,59730.29,18,6.0,56343.12,3.0,0.9433,True

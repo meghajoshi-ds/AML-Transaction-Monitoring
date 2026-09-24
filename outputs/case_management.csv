@@ -1,229 +1,229 @@
-transaction_id,timestamp,sender_account,receiver_account,amount,sender_country,receiver_country,transaction_type,channel,reason,escalation_channel,anomaly_pct,priority
-TXNS00923,2025-02-01 02:14:51,ACC100862,ACC102324,9310.61,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,1.0,high
-TXNR0162,2025-06-06 02:28:29,ACC100448,ACC102095,27183.65,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,1.0,high
-TXNS00330,2025-10-14 02:25:53,ACC100438,ACC100205,9386.0,United Kingdom,United Kingdom,transfer,online_transfer,"structuring, round_amount",rule: targeted typology,1.0,high
-TXNR0231,2025-12-25 06:26:59,ACC102210,ACC102406,42106.83,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,1.0,high
-TXNS01120,2025-01-26 05:07:52,ACC102923,ACC101913,9878.75,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9999,high
-TXN0051532,2025-04-08 07:18:58,ACC101949,ACC102823,373928.0412074883,Germany,Canada,transfer,wire_transfer,anomaly score only,anomaly only,0.9999,high
-TXN0046566,2025-08-15 19:03:13,ACC101782,ACC102510,124796.65223323836,Seychelles,United Kingdom,deposit,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.9999,high
-TXN0032098,2025-09-17 01:20:00,ACC100398,ACC101445,69466.12983101455,Netherlands,United Kingdom,deposit,card_payment,anomaly score only,anomaly only,0.9999,high
-TXNS00331,2025-10-14 01:25:53,ACC100438,ACC100205,9272.23,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9999,high
-TXNR0232,2025-12-25 09:26:59,ACC102406,ACC100540,43284.64,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9999,high
-TXNS01113,2025-01-26 03:07:52,ACC102503,ACC101913,9627.55,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9998,high
-TXNR0211,2025-04-30 04:33:45,ACC101953,ACC101482,37043.54,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9998,high
-TXNR0142,2025-06-05 03:35:39,ACC102706,ACC102070,38801.32,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9998,high
-TXN0025100,2025-06-09 05:15:53,ACC101551,ACC101935,13668.9,Australia,Australia,transfer,card_payment,anomaly score only,anomaly only,0.9998,high
-TXN0010166,2025-08-17 12:34:39,ACC102217,ACC101230,81355.07301983469,France,United Kingdom,withdrawal,wire_transfer,anomaly score only,anomaly only,0.9998,high
-TXNS00712,2025-12-01 13:33:52,ACC101461,ACC100454,9236.43,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9998,high
-TXNR0242,2025-01-11 08:04:24,ACC101773,ACC100816,42551.77,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9997,high
-TXNR0212,2025-04-30 06:33:45,ACC101482,ACC101023,36838.22,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9997,high
-TXNS00110,2025-05-17 06:42:07,ACC101983,ACC100693,9551.24,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9997,high
-TXNR0172,2025-09-24 00:47:04,ACC102094,ACC100599,30492.31,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9997,high
-TXNR0202,2025-11-15 02:09:00,ACC101279,ACC100454,22620.38,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9997,high
-TXNR0233,2025-12-25 12:26:59,ACC100540,ACC100134,42411.71,United Kingdom,Panama,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9997,high
-TXNR0122,2025-04-30 00:13:00,ACC102565,ACC102620,20316.91,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9996,high
-TXNR0213,2025-04-30 12:33:45,ACC101023,ACC100578,38804.94,United Kingdom,Seychelles,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9996,high
-TXNR0141,2025-06-04 22:35:39,ACC101745,ACC102706,39339.22,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9996,high
-TXNS00301,2025-10-14 12:25:53,ACC100623,ACC100205,9398.78,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9996,high
-TXN0048956,2025-10-31 15:32:23,ACC101223,ACC100841,25087.474744491243,Australia,Germany,payment,atm_withdrawal,anomaly score only,anomaly only,0.9996,high
-TXNS00702,2025-12-01 06:33:52,ACC101979,ACC100454,9679.56,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9996,high
-TXNS00921,2025-01-31 22:14:51,ACC100862,ACC102324,9220.37,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9995,high
-TXNR0143,2025-06-05 09:35:39,ACC102070,ACC101178,37477.3,United Kingdom,Cayman Islands,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9995,high
-TXNS00813,2025-07-11 18:47:12,ACC101126,ACC101506,9002.21,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9995,high
-TXN0009871,2025-10-04 02:15:26,ACC102301,ACC101745,5377.51,Canada,Germany,payment,atm_withdrawal,anomaly score only,anomaly only,0.9995,high
-TXNR0203,2025-11-15 06:09:55,ACC100454,ACC101536,22212.63,United Kingdom,Cayman Islands,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9995,high
-TXNS00711,2025-12-01 02:33:52,ACC101461,ACC100454,9391.97,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9995,high
-TXNS00911,2025-02-01 19:14:51,ACC102192,ACC102324,9475.09,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9994,high
-TXN0003965,2025-05-11 14:50:01,ACC102280,ACC101600,12259.07,United Kingdom,Cayman Islands,withdrawal,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.9994,high
-TXNS00811,2025-07-12 12:47:12,ACC101126,ACC101506,9710.61,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9994,high
-TXNS00200,2025-08-30 20:52:35,ACC102690,ACC102615,9316.02,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9994,high
-TXNS00203,2025-09-01 05:52:35,ACC102690,ACC102615,9414.94,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9994,high
-TXNS00310,2025-10-13 17:25:53,ACC102805,ACC100205,9684.53,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9994,high
-TXNR0131,2025-04-08 04:13:47,ACC102860,ACC101329,20909.55,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9993,high
-TXNS00101,2025-05-17 01:42:07,ACC101289,ACC100693,9365.6,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9993,high
-TXNS00100,2025-05-17 05:42:07,ACC101289,ACC100693,9125.36,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9993,high
-TXNR0152,2025-08-11 21:57:21,ACC100829,ACC102008,19131.72,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9993,high
-TXNR0171,2025-09-23 21:47:04,ACC100654,ACC102094,30037.08,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9993,high
-TXN0021004,2025-11-27 03:48:43,ACC102703,ACC101513,10836.03,United States,United States,deposit,card_payment,anomaly score only,anomaly only,0.9993,high
-TXNS01101,2025-01-26 12:07:52,ACC100844,ACC101913,9235.64,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9992,high
-TXNS00901,2025-01-31 20:14:00,ACC101171,ACC102324,9611.24,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9992,high
-TXNS00602,2025-03-21 05:36:54,ACC101051,ACC101167,9891.46,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9992,high
-TXNS00400,2025-05-01 11:37:00,ACC102013,ACC102518,9001.18,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9992,high
-TXNS00211,2025-08-31 05:52:35,ACC100049,ACC102615,9678.84,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9992,high
-TXNS00700,2025-12-02 15:33:52,ACC101979,ACC100454,9822.64,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9992,high
-TXNS01102,2025-01-26 04:07:52,ACC100844,ACC101913,9783.04,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9991,high
-TXNR0182,2025-04-15 09:59:36,ACC102901,ACC100252,18324.46,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9991,high
-TXN0028732,2025-05-12 23:12:03,ACC101208,ACC100924,14516.85,Australia,Ireland,withdrawal,card_payment,anomaly score only,anomaly only,0.9991,high
-TXNS00821,2025-07-11 17:47:12,ACC100119,ACC101506,9198.61,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9991,high
-TXN0018642,2025-09-10 00:01:40,ACC100017,ACC102605,22938.4915584324,Germany,United Kingdom,payment,atm_withdrawal,anomaly score only,anomaly only,0.9991,high
-TXNS00701,2025-11-30 21:33:52,ACC101979,ACC100454,9929.66,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9991,high
-TXNS00601,2025-03-19 16:36:00,ACC101051,ACC101167,9451.77,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.999,high
-TXNS00412,2025-05-01 21:37:00,ACC100108,ACC102518,9152.58,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.999,high
-TXNS00820,2025-07-12 17:47:12,ACC100119,ACC101506,9231.46,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.999,high
-TXNR0153,2025-08-12 02:57:21,ACC102008,ACC101850,19413.06,United Kingdom,Cayman Islands,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.999,high
-TXNS00300,2025-10-13 19:25:53,ACC100623,ACC100205,9044.28,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.999,high
-TXNR0201,2025-11-14 21:09:55,ACC101722,ACC101279,22429.93,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.999,high
-TXNR0221,2025-04-24 04:34:34,ACC102381,ACC100710,15617.65,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9989,high
-TXNS00120,2025-05-16 01:42:07,ACC102686,ACC100693,9726.12,United Kingdom,United Kingdom,transfer,unknown,structuring,rule: targeted typology,0.9989,high
-TXNR0161,2025-06-05 23:28:29,ACC102534,ACC100448,26528.78,United Kingdom,United Kingdom,transfer,unknown,rapid_movement,rule: targeted typology,0.9989,high
-TXNS01012,2025-08-12 16:31:05,ACC100572,ACC102256,9869.89,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9989,high
-TXNR0173,2025-09-24 06:47:04,ACC100599,ACC102491,28753.96,United Kingdom,Malta,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9989,high
-TXNS00920,2025-01-31 22:14:51,ACC100862,ACC102324,9535.18,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9988,high
-TXN0001584,2025-02-17 23:34:56,ACC102885,ACC101333,15020.64,Ireland,Panama,payment,online_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9988,high
-TXNS00620,2025-03-20 09:36:54,ACC101857,ACC101167,9475.53,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9988,high
-TXNS00621,2025-03-21 04:36:54,ACC101857,ACC101167,9814.91,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9988,high
-TXNS00510,2025-03-30 02:03:00,ACC102821,ACC100248,9564.02,United Kingdom,United Kingdom,transfer,unknown,structuring,rule: targeted typology,0.9988,high
-TXNS01111,2025-01-26 01:07:52,ACC102503,ACC101913,9141.26,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9987,high
-TXNR0121,2025-04-29 23:13:03,ACC101026,ACC102565,20796.43,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9987,high
-TXNS00410,2025-05-01 11:37:00,ACC100108,ACC102518,9784.76,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9987,high
-TXNS00830,2025-07-11 18:47:12,ACC100535,ACC101506,9741.13,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9987,high
-TXN0044884,2025-07-25 14:22:58,ACC100683,ACC101600,39312.4851717775,Germany,Cayman Islands,deposit,atm_withdrawal,high_risk_country,rule: broad screen + anomaly corroboration,0.9987,high
-TXNS00931,2025-02-02 01:14:51,ACC101393,ACC102324,9898.87,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9986,high
-TXNS00603,2025-03-21 02:36:54,ACC101051,ACC101167,9600.33,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9986,high
-TXNS00112,2025-05-17 02:42:07,ACC101983,ACC100693,9048.73,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9986,high
-TXNS00710,2025-11-30 21:33:52,ACC101461,ACC100454,9865.33,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9986,high
-TXNS00900,2025-01-31 09:14:51,ACC101171,ACC102324,9655.96,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9985,high
-TXNS00930,2025-01-31 11:14:00,ACC101393,ACC102324,9427.4,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9985,high
-TXNS00600,2025-03-19 22:36:54,ACC101051,ACC101167,9104.34,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9985,high
-TXNR0133,2025-04-08 14:13:47,ACC102467,ACC101021,21211.82,United Kingdom,Cayman Islands,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9985,high
-TXNS00802,2025-07-12 09:47:12,ACC100779,ACC101506,9480.82,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9985,high
-TXNR0241,2025-01-11 03:04:24,ACC101117,ACC101773,41073.53,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9984,high
-TXNS00913,2025-02-01 16:14:51,ACC102192,ACC102324,9777.45,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9984,high
-TXNS00210,2025-09-01 09:52:35,ACC100049,ACC102615,9109.4,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9984,high
-TXNS00332,2025-10-13 14:25:53,ACC100438,ACC100205,9080.75,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9984,high
-TXNS00611,2025-03-21 09:36:54,ACC100302,ACC101167,9915.92,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9983,high
-TXNR0222,2025-04-24 07:34:34,ACC100710,ACC100923,15217.44,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9983,high
-TXNR0123,2025-04-30 04:13:03,ACC102620,ACC101573,20069.39,United Kingdom,Malta,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9983,high
-TXN0051704,2025-06-21 05:43:24,ACC100602,ACC102124,6085.86,Malta,Australia,transfer,online_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9983,high
-TXNS00320,2025-10-13 15:25:00,ACC102593,ACC100205,9401.09,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9983,high
-TXNS00812,2025-07-11 04:47:12,ACC101126,ACC101506,9129.04,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9982,high
-TXNR0151,2025-08-11 15:57:21,ACC101683,ACC100829,19757.7,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9982,high
-TXNS00312,2025-10-13 17:25:53,ACC102805,ACC100205,9313.62,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9982,high
-TXNS00302,2025-10-13 17:25:53,ACC100623,ACC100205,9572.67,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9982,high
-TXNS00521,2025-03-30 21:03:00,ACC102361,ACC100248,9142.56,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9981,high
-TXNR0183,2025-04-15 14:59:36,ACC100252,ACC101843,18951.05,United Kingdom,Seychelles,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9981,high
-TXNS00831,2025-07-11 02:47:12,ACC100535,ACC101506,9307.68,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9981,high
-TXNS00321,2025-10-14 22:25:53,ACC102593,ACC100205,9690.56,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9981,high
-TXNS00622,2025-03-19 10:36:54,ACC101857,ACC101167,9313.41,United Kingdom,United Kingdom,transfer,unknown,structuring,rule: targeted typology,0.998,high
-TXNR0132,2025-04-08 09:13:47,ACC101329,ACC102467,20028.65,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.998,high
-TXNS01011,2025-08-12 04:31:05,ACC100572,ACC102256,9457.74,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.998,high
-TXNS00212,2025-08-31 22:52:35,ACC100049,ACC102615,9275.35,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.998,high
-TXNS00403,2025-04-29 11:37:00,ACC102013,ACC102518,9070.6,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9979,high
-TXNS00411,2025-05-01 18:37:00,ACC100108,ACC102518,9477.18,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9979,high
-TXNS00121,2025-05-17 00:42:07,ACC102686,ACC100693,9770.81,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9979,high
-TXNS00402,2025-04-30 23:37:00,ACC102013,ACC102518,9222.23,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9978,high
-TXNR0163,2025-06-06 04:28:29,ACC102095,ACC100815,28334.95,United Kingdom,Cayman Islands,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9978,high
-TXNS00810,2025-07-11 03:47:12,ACC101126,ACC101506,9417.14,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9978,high
-TXNS00800,2025-07-11 14:47:12,ACC100779,ACC101506,9284.55,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9978,high
-TXN0004711,2025-10-04 12:59:28,ACC100495,ACC100052,1884.32,Cayman Islands,United Kingdom,transfer,unknown,"rapid_movement, high_risk_country",rule: targeted typology,0.9977,high
-TXN0046549,2025-12-09 00:17:00,ACC102749,ACC102528,5973.02,United States,Seychelles,payment,wire_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9977,high
-TXNS01121,2025-01-25 05:07:52,ACC102923,ACC101913,9765.11,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9976,high
-TXNS01013,2025-08-12 10:31:05,ACC100572,ACC102256,9131.08,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9976,high
-TXNS00201,2025-08-30 20:52:35,ACC102690,ACC102615,9074.4,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9975,high
-TXN0016553,2025-01-18 04:03:07,ACC102503,ACC101721,2824.18,Netherlands,Seychelles,deposit,unknown,high_risk_country,rule: broad screen + anomaly corroboration,0.9974,high
-TXNS00912,2025-01-31 03:14:51,ACC102192,ACC102324,9208.46,United Kingdom,United Kingdom,transfer,unknown,structuring,rule: targeted typology,0.9974,high
-TXNS00311,2025-10-13 11:25:00,ACC102805,ACC100205,9899.97,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9974,high
-TXN0019521,2025-11-08 04:46:42,ACC100212,ACC102627,4605.86,Seychelles,Australia,withdrawal,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.9974,high
-TXN0018760,2025-02-04 02:15:55,ACC100314,ACC100290,2721.21,Canada,Seychelles,transfer,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.9973,high
-TXN0057590,2025-05-20 11:59:54,ACC101486,ACC100871,7796.34,Australia,Cayman Islands,deposit,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.9973,high
-TXNS01001,2025-08-12 01:31:05,ACC102750,ACC102256,9273.03,United Kingdom,United Kingdom,transfer,online_transfer,"structuring, rapid_movement",rule: targeted typology,0.9973,high
-TXNS01010,2025-08-13 12:31:05,ACC100572,ACC102256,9898.72,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9972,high
-TXN0014108,2025-12-01 05:20:37,ACC102342,ACC102494,1238.07,Ireland,Seychelles,payment,wire_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9972,high
-TXNS00520,2025-03-31 06:03:00,ACC102361,ACC100248,9560.39,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9971,high
-TXNS01122,2025-01-25 17:07:52,ACC102923,ACC101913,9063.58,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.997,high
-TXN0034624,2025-01-29 20:55:39,ACC101688,ACC102533,9421.53,Malta,United Kingdom,withdrawal,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.997,high
-TXNR0192,2025-02-11 16:13:02,ACC100363,ACC100043,17752.84,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.997,high
-TXNS00501,2025-03-29 11:03:00,ACC101237,ACC100248,9352.59,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.997,high
-TXNS00623,2025-03-19 13:36:54,ACC101857,ACC101167,9171.42,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9968,high
-TXN0018589,2025-08-08 00:12:56,ACC101829,ACC100923,4890.22,Seychelles,Germany,payment,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.9968,high
-TXNS00011,2025-08-20 22:35:16,ACC100646,ACC102908,9835.84,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9968,high
-TXNS01100,2025-01-24 11:07:52,ACC100844,ACC101913,9091.62,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9967,high
-TXNS00922,2025-01-31 19:14:51,ACC100862,ACC102324,9324.39,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9967,high
-TXNS01000,2025-08-13 15:31:05,ACC102750,ACC102256,9563.74,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9967,high
-TXNS00111,2025-05-15 14:42:00,ACC101983,ACC100693,9860.33,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9965,high
-TXN0017278,2025-11-18 00:01:06,ACC100184,ACC102449,8963.17,Cayman Islands,United States,withdrawal,wire_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9963,high
-TXNR0243,2025-01-11 11:04:24,ACC100816,ACC102041,42770.01,United Kingdom,Panama,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9962,high
-TXNR0191,2025-02-11 13:13:00,ACC101333,ACC100363,17455.82,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9961,high
-TXNR0181,2025-04-15 08:59:36,ACC101353,ACC102901,18439.0,United Kingdom,United Kingdom,transfer,wire_transfer,"rapid_movement, round_amount",rule: targeted typology,0.996,high
-TXN0055161,2025-10-25 04:45:47,ACC101331,ACC101392,3865.83,Seychelles,France,payment,unknown,high_risk_country,rule: broad screen + anomaly corroboration,0.9959,high
-TXNS00910,2025-01-31 08:14:51,ACC102192,ACC102324,9681.04,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9955,high
-TXN0036640,2025-10-12 02:46:21,ACC100349,ACC102886,1976.01,Malta,Ireland,deposit,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.9954,high
-TXNS00612,2025-03-21 01:36:54,ACC100302,ACC101167,9233.34,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9953,high
-TXN0047102,2025-11-11 08:30:28,ACC102279,ACC102556,9341.73,Malta,Canada,withdrawal,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.9953,high
-TXNS01112,2025-01-25 18:07:52,ACC102503,ACC101913,9033.15,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9952,high
-TXNS00511,2025-03-31 07:03:00,ACC102821,ACC100248,9558.28,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9951,high
-TXN0042947,2025-03-18 07:29:17,ACC100121,ACC101854,8521.45,Seychelles,United States,transfer,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.995,high
-TXNS00202,2025-08-30 13:52:35,ACC102690,ACC102615,9193.05,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.995,high
-TXNS00000,2025-08-21 13:35:16,ACC101858,ACC102908,9402.7,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9949,high
-TXNR0223,2025-04-24 11:34:34,ACC100923,ACC101972,15528.09,United Kingdom,Cyprus,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9948,high
-TXNS00801,2025-07-10 20:47:12,ACC100779,ACC101506,9328.82,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9948,high
-TXN0055297,2025-12-20 09:41:22,ACC100370,ACC100573,5436.33,Cyprus,Germany,payment,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.9947,high
-TXNR0193,2025-02-11 17:13:02,ACC100043,ACC100446,17601.7,United Kingdom,Seychelles,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9945,high
-TXN0033407,2025-12-22 07:24:57,ACC100682,ACC101878,4292.03,Cyprus,Germany,withdrawal,wire_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9944,high
-TXN0038886,2025-06-01 03:15:51,ACC100370,ACC102688,320.07,Cyprus,Ireland,deposit,unknown,high_risk_country,rule: broad screen + anomaly corroboration,0.9941,high
-TXN0041990,2025-11-20 01:05:26,ACC102933,ACC101335,153.75,United States,Cyprus,transfer,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.9939,high
-TXN0044662,2025-10-17 05:06:58,ACC100884,ACC100393,6821.9,United Kingdom,Malta,payment,online_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9937,high
-TXN0001118,2025-12-29 00:53:02,ACC100869,ACC102456,208.87,Ireland,Panama,deposit,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.9933,high
-TXN0008141,2025-06-01 05:01:52,ACC102833,ACC101585,3894.0,Spain,Spain,withdrawal,mobile_app,round_amount,rule: broad screen + anomaly corroboration,0.993,high
-TXN0020356,2025-05-03 02:16:15,ACC102936,ACC102004,6618.77,Germany,Malta,withdrawal,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.9928,high
-TXN0022850,2025-05-06 17:32:20,ACC102030,ACC100696,5468.88,Canada,Cayman Islands,withdrawal,atm_withdrawal,high_risk_country,rule: broad screen + anomaly corroboration,0.9928,high
-TXNS01002,2025-08-11 14:31:05,ACC102750,ACC102256,9097.16,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9927,high
-TXN0017602,2025-09-20 12:58:40,ACC101904,ACC101362,2070.37,Cayman Islands,Australia,payment,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.9925,high
-TXN0024799,2025-11-04 02:14:47,ACC102523,ACC100631,399.15,Australia,Malta,withdrawal,wire_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9924,high
-TXN0011020,2025-03-13 23:40:36,ACC102373,ACC101728,4612.79,Seychelles,Germany,payment,online_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9922,high
-TXN0042241,2025-12-01 01:19:37,ACC100869,ACC101326,766.88,Ireland,Cyprus,transfer,wire_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9922,high
-TXN0018034,2025-01-25 03:13:54,ACC101036,ACC102809,1543.08,Canada,Seychelles,withdrawal,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.992,high
-TXN0055504,2025-02-12 06:59:00,ACC100709,ACC102892,2362.14,Spain,Panama,deposit,atm_withdrawal,high_risk_country,rule: broad screen + anomaly corroboration,0.992,high
-TXN0015921,2025-07-19 10:07:26,ACC100825,ACC102393,4700.0,Netherlands,Australia,withdrawal,online_transfer,round_amount,rule: broad screen + anomaly corroboration,0.992,high
-TXN0003212,2025-11-11 04:37:30,ACC101286,ACC101865,3749.07,Panama,United Kingdom,withdrawal,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.992,high
-TXN0035831,2025-04-16 04:49:17,ACC102197,ACC102599,72.87,Ireland,Seychelles,payment,wire_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9916,high
-TXNS00001,2025-08-19 12:35:16,ACC101858,ACC102908,9382.02,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9912,high
-TXN0024334,2025-08-11 20:46:24,ACC101615,ACC102602,556.27,Malta,Ireland,payment,wire_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.991,high
-TXN0049971,2025-05-17 16:55:00,ACC102651,ACC100555,1140.43,United Kingdom,United Kingdom,transfer,atm_withdrawal,rapid_movement,rule: targeted typology,0.9908,high
-TXN0030720,2025-05-18 18:39:00,ACC100602,ACC102541,211.26,Malta,United States,payment,atm_withdrawal,high_risk_country,rule: broad screen + anomaly corroboration,0.9908,high
-TXNS00500,2025-03-29 08:03:00,ACC101237,ACC100248,9165.28,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9907,high
-TXN0033759,2025-02-25 23:37:52,ACC102799,ACC100763,2453.39,Ireland,Malta,withdrawal,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.9902,high
-TXN0012751,2025-08-20 04:41:00,ACC101459,ACC100382,2332.4,Australia,Cyprus,payment,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.9901,high
-TXNS00401,2025-04-30 18:37:00,ACC102013,ACC102518,9432.4,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9889,medium
-TXNS00010,2025-08-20 17:35:16,ACC100646,ACC102908,9739.46,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9889,medium
-TXNS00610,2025-03-19 08:36:54,ACC100302,ACC101167,9514.77,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9885,medium
-TXNS00113,2025-05-16 15:42:07,ACC101983,ACC100693,9022.5,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9882,medium
-TXNS01110,2025-01-24 11:07:52,ACC102503,ACC101913,9794.39,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9849,medium
-TXN0008625,2025-10-05 09:26:43,ACC100052,ACC101749,2457.16,United Kingdom,United Kingdom,deposit,atm_withdrawal,rapid_movement,rule: targeted typology,0.9746,medium
-TXN0021367,2025-12-06 15:05:00,ACC101849,ACC101364,1918.13,Spain,United Kingdom,withdrawal,card_payment,rapid_movement,rule: targeted typology,0.9684,medium
-TXN0020604,2025-11-09 00:23:05,ACC100554,ACC100333,1599.83,Spain,United States,payment,wire_transfer,rapid_movement,rule: targeted typology,0.965,medium
-TXN0001423,2025-10-11 07:21:28,ACC101240,ACC100951,2233.76,United States,Australia,payment,wire_transfer,rapid_movement,rule: targeted typology,0.9542,medium
-TXN0020585,2025-12-06 02:56:41,ACC102022,ACC101849,1085.8,United States,Spain,payment,card_payment,rapid_movement,rule: targeted typology,0.9485,medium
-TXN0018162,2025-10-10 21:17:01,ACC101292,ACC101240,1273.31,Germany,United States,transfer,card_payment,rapid_movement,rule: targeted typology,0.9484,medium
-TXN0029208,2025-12-04 06:15:08,ACC100886,ACC102669,2987.97,Spain,Malta,transfer,card_payment,"rapid_movement, high_risk_country",rule: targeted typology,0.9465,medium
-TXN0032669,2025-11-22 17:55:05,ACC102325,ACC102354,1190.46,Canada,Canada,payment,card_payment,rapid_movement,rule: targeted typology,0.9323,medium
-TXN0036254,2025-07-12 22:57:40,ACC102539,ACC100461,1118.51,Ireland,Ireland,deposit,card_payment,rapid_movement,rule: targeted typology,0.9241,medium
-TXN0010965,2025-05-18 05:12:33,ACC100555,ACC102295,1882.8,United Kingdom,Spain,transfer,atm_withdrawal,rapid_movement,rule: targeted typology,0.9188,medium
-TXN0032557,2025-07-07 11:39:19,ACC100112,ACC101851,4933.12,Ireland,United Kingdom,withdrawal,online_transfer,rapid_movement,rule: targeted typology,0.8848,low
-TXN0013907,2025-04-22 03:19:21,ACC101950,ACC102870,2607.29,Australia,Germany,withdrawal,card_payment,rapid_movement,rule: targeted typology,0.8813,low
-TXN0053808,2025-03-15 18:47:29,ACC100946,ACC102988,2571.76,France,Germany,deposit,mobile_app,rapid_movement,rule: targeted typology,0.8654,low
-TXN0044939,2025-12-04 16:05:28,ACC102669,ACC100161,2921.14,Malta,Australia,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.8538,low
-TXN0039290,2025-09-12 02:35:20,ACC102914,ACC102241,2436.73,United Kingdom,France,payment,online_transfer,rapid_movement,rule: targeted typology,0.8525,low
-TXN0003324,2025-08-25 06:46:59,ACC100149,ACC102986,2438.92,Netherlands,Germany,deposit,online_transfer,rapid_movement,rule: targeted typology,0.8463,low
-TXN0043297,2025-06-10 20:59:21,ACC100758,ACC100043,1415.79,France,Spain,deposit,unknown,rapid_movement,rule: targeted typology,0.8421,low
-TXN0036149,2025-09-15 01:50:59,ACC102545,ACC101050,1515.64,Spain,Ireland,payment,card_payment,rapid_movement,rule: targeted typology,0.8205,low
-TXN0023512,2025-08-12 14:41:32,ACC102750,ACC102413,461.45,United Kingdom,Spain,deposit,mobile_app,rapid_movement,rule: targeted typology,0.8015,low
-TXN0057490,2025-03-15 16:54:27,ACC101919,ACC100946,1322.46,Ireland,France,withdrawal,atm_withdrawal,rapid_movement,rule: targeted typology,0.7955,low
-TXN0013652,2025-03-07 04:02:35,ACC100788,ACC102299,2200.03,Spain,Netherlands,payment,card_payment,rapid_movement,rule: targeted typology,0.7751,low
-TXN0013133,2025-01-04 19:22:38,ACC102688,ACC101382,1754.51,Ireland,Netherlands,withdrawal,wire_transfer,rapid_movement,rule: targeted typology,0.7684,low
-TXN0006029,2025-07-06 22:00:22,ACC102492,ACC100112,1578.32,United Kingdom,Ireland,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.7562,low
-TXN0037630,2025-09-14 08:47:04,ACC100617,ACC102545,1304.87,Canada,Spain,transfer,mobile_app,rapid_movement,rule: targeted typology,0.7437,low
-TXN0037407,2025-09-24 18:42:10,ACC102094,ACC101392,460.23,Canada,France,deposit,card_payment,rapid_movement,rule: targeted typology,0.7369,low
-TXN0057516,2025-01-04 06:20:04,ACC100806,ACC102688,1376.65,Australia,Ireland,deposit,online_transfer,rapid_movement,rule: targeted typology,0.7302,low
-TXN0002790,2025-03-06 22:18:18,ACC102918,ACC100788,1508.8,France,Spain,withdrawal,mobile_app,rapid_movement,rule: targeted typology,0.7218,low
-TXN0043899,2025-08-11 20:59:16,ACC100889,ACC102750,1249.75,France,United Kingdom,payment,atm_withdrawal,rapid_movement,rule: targeted typology,0.713,low
-TXN0052342,2025-08-25 11:14:59,ACC102986,ACC102923,3918.25,Germany,Australia,withdrawal,online_transfer,rapid_movement,rule: targeted typology,0.7085,low
-TXN0003404,2025-11-08 14:19:34,ACC102980,ACC100554,1383.64,United States,Spain,transfer,online_transfer,rapid_movement,rule: targeted typology,0.7065,low
-TXN0052575,2025-05-29 21:47:22,ACC101910,ACC100027,1298.61,France,United Kingdom,payment,online_transfer,rapid_movement,rule: targeted typology,0.7013,low
-TXN0017166,2025-11-15 03:16:31,ACC100454,ACC101145,50.52,United States,Cyprus,payment,mobile_app,"rapid_movement, high_risk_country",rule: targeted typology,0.6887,low
-TXN0054115,2025-11-22 14:19:17,ACC102304,ACC102325,1296.84,Ireland,Canada,deposit,atm_withdrawal,rapid_movement,rule: targeted typology,0.6439,low
-TXN0041772,2025-09-12 15:06:00,ACC102241,ACC100486,1949.82,France,United States,payment,wire_transfer,rapid_movement,rule: targeted typology,0.4895,low
-TXN0003811,2025-07-13 19:51:00,ACC100461,ACC100255,919.21,Ireland,Canada,transfer,mobile_app,rapid_movement,rule: targeted typology,0.4879,low
-TXN0057431,2025-04-21 17:13:16,ACC101671,ACC101950,1780.15,France,Australia,transfer,card_payment,rapid_movement,rule: targeted typology,0.4878,low
-TXN0031376,2025-05-30 13:00:09,ACC100027,ACC100817,1287.45,United Kingdom,Spain,transfer,online_transfer,rapid_movement,rule: targeted typology,0.315,low
-TXN0008886,2025-06-11 08:40:41,ACC100043,ACC100686,1418.68,Spain,Ireland,transfer,online_transfer,rapid_movement,rule: targeted typology,0.2263,low
+alert_ref,timestamp,sender_account,receiver_account,amount,sender_country,receiver_country,transaction_type,channel,reason,escalation_channel,anomaly_pct,priority
+ALERT-0001,2025-02-01 02:14:51,ACC100862,ACC102324,9310.61,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,1.0,high
+ALERT-0002,2025-06-06 02:28:29,ACC100448,ACC102095,27183.65,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,1.0,high
+ALERT-0003,2025-10-14 02:25:53,ACC100438,ACC100205,9386.0,United Kingdom,United Kingdom,transfer,online_transfer,"structuring, round_amount",rule: targeted typology,1.0,high
+ALERT-0004,2025-12-25 06:26:59,ACC102210,ACC102406,42106.83,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,1.0,high
+ALERT-0005,2025-01-26 05:07:52,ACC102923,ACC101913,9878.75,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9999,high
+ALERT-0006,2025-04-08 07:18:58,ACC101949,ACC102823,373928.0412074883,Germany,Canada,transfer,wire_transfer,anomaly score only,anomaly only,0.9999,high
+ALERT-0007,2025-08-15 19:03:13,ACC101782,ACC102510,124796.65223323836,Seychelles,United Kingdom,deposit,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.9999,high
+ALERT-0008,2025-09-17 01:20:00,ACC100398,ACC101445,69466.12983101455,Netherlands,United Kingdom,deposit,card_payment,anomaly score only,anomaly only,0.9999,high
+ALERT-0009,2025-10-14 01:25:53,ACC100438,ACC100205,9272.23,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9999,high
+ALERT-0010,2025-12-25 09:26:59,ACC102406,ACC100540,43284.64,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9999,high
+ALERT-0011,2025-01-26 03:07:52,ACC102503,ACC101913,9627.55,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9998,high
+ALERT-0012,2025-04-30 04:33:45,ACC101953,ACC101482,37043.54,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9998,high
+ALERT-0013,2025-06-05 03:35:39,ACC102706,ACC102070,38801.32,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9998,high
+ALERT-0014,2025-06-09 05:15:53,ACC101551,ACC101935,13668.9,Australia,Australia,transfer,card_payment,anomaly score only,anomaly only,0.9998,high
+ALERT-0015,2025-08-17 12:34:39,ACC102217,ACC101230,81355.07301983469,France,United Kingdom,withdrawal,wire_transfer,anomaly score only,anomaly only,0.9998,high
+ALERT-0016,2025-12-01 13:33:52,ACC101461,ACC100454,9236.43,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9998,high
+ALERT-0017,2025-01-11 08:04:24,ACC101773,ACC100816,42551.77,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9997,high
+ALERT-0018,2025-04-30 06:33:45,ACC101482,ACC101023,36838.22,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9997,high
+ALERT-0019,2025-05-17 06:42:07,ACC101983,ACC100693,9551.24,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9997,high
+ALERT-0020,2025-09-24 00:47:04,ACC102094,ACC100599,30492.31,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9997,high
+ALERT-0021,2025-11-15 02:09:00,ACC101279,ACC100454,22620.38,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9997,high
+ALERT-0022,2025-12-25 12:26:59,ACC100540,ACC100134,42411.71,United Kingdom,Panama,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9997,high
+ALERT-0023,2025-04-30 00:13:00,ACC102565,ACC102620,20316.91,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9996,high
+ALERT-0024,2025-04-30 12:33:45,ACC101023,ACC100578,38804.94,United Kingdom,Seychelles,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9996,high
+ALERT-0025,2025-06-04 22:35:39,ACC101745,ACC102706,39339.22,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9996,high
+ALERT-0026,2025-10-14 12:25:53,ACC100623,ACC100205,9398.78,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9996,high
+ALERT-0027,2025-10-31 15:32:23,ACC101223,ACC100841,25087.474744491243,Australia,Germany,payment,atm_withdrawal,anomaly score only,anomaly only,0.9996,high
+ALERT-0028,2025-12-01 06:33:52,ACC101979,ACC100454,9679.56,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9996,high
+ALERT-0029,2025-01-31 22:14:51,ACC100862,ACC102324,9220.37,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9995,high
+ALERT-0030,2025-06-05 09:35:39,ACC102070,ACC101178,37477.3,United Kingdom,Cayman Islands,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9995,high
+ALERT-0031,2025-07-11 18:47:12,ACC101126,ACC101506,9002.21,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9995,high
+ALERT-0032,2025-10-04 02:15:26,ACC102301,ACC101745,5377.51,Canada,Germany,payment,atm_withdrawal,anomaly score only,anomaly only,0.9995,high
+ALERT-0033,2025-11-15 06:09:55,ACC100454,ACC101536,22212.63,United Kingdom,Cayman Islands,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9995,high
+ALERT-0034,2025-12-01 02:33:52,ACC101461,ACC100454,9391.97,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9995,high
+ALERT-0035,2025-02-01 19:14:51,ACC102192,ACC102324,9475.09,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9994,high
+ALERT-0036,2025-05-11 14:50:01,ACC102280,ACC101600,12259.07,United Kingdom,Cayman Islands,withdrawal,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.9994,high
+ALERT-0037,2025-07-12 12:47:12,ACC101126,ACC101506,9710.61,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9994,high
+ALERT-0038,2025-08-30 20:52:35,ACC102690,ACC102615,9316.02,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9994,high
+ALERT-0039,2025-09-01 05:52:35,ACC102690,ACC102615,9414.94,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9994,high
+ALERT-0040,2025-10-13 17:25:53,ACC102805,ACC100205,9684.53,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9994,high
+ALERT-0041,2025-04-08 04:13:47,ACC102860,ACC101329,20909.55,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9993,high
+ALERT-0042,2025-05-17 01:42:07,ACC101289,ACC100693,9365.6,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9993,high
+ALERT-0043,2025-05-17 05:42:07,ACC101289,ACC100693,9125.36,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9993,high
+ALERT-0044,2025-08-11 21:57:21,ACC100829,ACC102008,19131.72,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9993,high
+ALERT-0045,2025-09-23 21:47:04,ACC100654,ACC102094,30037.08,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9993,high
+ALERT-0046,2025-11-27 03:48:43,ACC102703,ACC101513,10836.03,United States,United States,deposit,card_payment,anomaly score only,anomaly only,0.9993,high
+ALERT-0047,2025-01-26 12:07:52,ACC100844,ACC101913,9235.64,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9992,high
+ALERT-0048,2025-01-31 20:14:00,ACC101171,ACC102324,9611.24,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9992,high
+ALERT-0049,2025-03-21 05:36:54,ACC101051,ACC101167,9891.46,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9992,high
+ALERT-0050,2025-05-01 11:37:00,ACC102013,ACC102518,9001.18,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9992,high
+ALERT-0051,2025-08-31 05:52:35,ACC100049,ACC102615,9678.84,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9992,high
+ALERT-0052,2025-12-02 15:33:52,ACC101979,ACC100454,9822.64,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9992,high
+ALERT-0053,2025-01-26 04:07:52,ACC100844,ACC101913,9783.04,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9991,high
+ALERT-0054,2025-04-15 09:59:36,ACC102901,ACC100252,18324.46,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9991,high
+ALERT-0055,2025-05-12 23:12:03,ACC101208,ACC100924,14516.85,Australia,Ireland,withdrawal,card_payment,anomaly score only,anomaly only,0.9991,high
+ALERT-0056,2025-07-11 17:47:12,ACC100119,ACC101506,9198.61,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9991,high
+ALERT-0057,2025-09-10 00:01:40,ACC100017,ACC102605,22938.4915584324,Germany,United Kingdom,payment,atm_withdrawal,anomaly score only,anomaly only,0.9991,high
+ALERT-0058,2025-11-30 21:33:52,ACC101979,ACC100454,9929.66,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9991,high
+ALERT-0059,2025-03-19 16:36:00,ACC101051,ACC101167,9451.77,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.999,high
+ALERT-0060,2025-05-01 21:37:00,ACC100108,ACC102518,9152.58,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.999,high
+ALERT-0061,2025-07-12 17:47:12,ACC100119,ACC101506,9231.46,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.999,high
+ALERT-0062,2025-08-12 02:57:21,ACC102008,ACC101850,19413.06,United Kingdom,Cayman Islands,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.999,high
+ALERT-0063,2025-10-13 19:25:53,ACC100623,ACC100205,9044.28,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.999,high
+ALERT-0064,2025-11-14 21:09:55,ACC101722,ACC101279,22429.93,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.999,high
+ALERT-0065,2025-04-24 04:34:34,ACC102381,ACC100710,15617.65,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9989,high
+ALERT-0066,2025-05-16 01:42:07,ACC102686,ACC100693,9726.12,United Kingdom,United Kingdom,transfer,unknown,structuring,rule: targeted typology,0.9989,high
+ALERT-0067,2025-06-05 23:28:29,ACC102534,ACC100448,26528.78,United Kingdom,United Kingdom,transfer,unknown,rapid_movement,rule: targeted typology,0.9989,high
+ALERT-0068,2025-08-12 16:31:05,ACC100572,ACC102256,9869.89,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9989,high
+ALERT-0069,2025-09-24 06:47:04,ACC100599,ACC102491,28753.96,United Kingdom,Malta,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9989,high
+ALERT-0070,2025-01-31 22:14:51,ACC100862,ACC102324,9535.18,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9988,high
+ALERT-0071,2025-02-17 23:34:56,ACC102885,ACC101333,15020.64,Ireland,Panama,payment,online_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9988,high
+ALERT-0072,2025-03-20 09:36:54,ACC101857,ACC101167,9475.53,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9988,high
+ALERT-0073,2025-03-21 04:36:54,ACC101857,ACC101167,9814.91,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9988,high
+ALERT-0074,2025-03-30 02:03:00,ACC102821,ACC100248,9564.02,United Kingdom,United Kingdom,transfer,unknown,structuring,rule: targeted typology,0.9988,high
+ALERT-0075,2025-01-26 01:07:52,ACC102503,ACC101913,9141.26,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9987,high
+ALERT-0076,2025-04-29 23:13:03,ACC101026,ACC102565,20796.43,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9987,high
+ALERT-0077,2025-05-01 11:37:00,ACC100108,ACC102518,9784.76,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9987,high
+ALERT-0078,2025-07-11 18:47:12,ACC100535,ACC101506,9741.13,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9987,high
+ALERT-0079,2025-07-25 14:22:58,ACC100683,ACC101600,39312.4851717775,Germany,Cayman Islands,deposit,atm_withdrawal,high_risk_country,rule: broad screen + anomaly corroboration,0.9987,high
+ALERT-0080,2025-02-02 01:14:51,ACC101393,ACC102324,9898.87,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9986,high
+ALERT-0081,2025-03-21 02:36:54,ACC101051,ACC101167,9600.33,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9986,high
+ALERT-0082,2025-05-17 02:42:07,ACC101983,ACC100693,9048.73,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9986,high
+ALERT-0083,2025-11-30 21:33:52,ACC101461,ACC100454,9865.33,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9986,high
+ALERT-0084,2025-01-31 09:14:51,ACC101171,ACC102324,9655.96,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9985,high
+ALERT-0085,2025-01-31 11:14:00,ACC101393,ACC102324,9427.4,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9985,high
+ALERT-0086,2025-03-19 22:36:54,ACC101051,ACC101167,9104.34,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9985,high
+ALERT-0087,2025-04-08 14:13:47,ACC102467,ACC101021,21211.82,United Kingdom,Cayman Islands,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9985,high
+ALERT-0088,2025-07-12 09:47:12,ACC100779,ACC101506,9480.82,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9985,high
+ALERT-0089,2025-01-11 03:04:24,ACC101117,ACC101773,41073.53,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9984,high
+ALERT-0090,2025-02-01 16:14:51,ACC102192,ACC102324,9777.45,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9984,high
+ALERT-0091,2025-09-01 09:52:35,ACC100049,ACC102615,9109.4,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9984,high
+ALERT-0092,2025-10-13 14:25:53,ACC100438,ACC100205,9080.75,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9984,high
+ALERT-0093,2025-03-21 09:36:54,ACC100302,ACC101167,9915.92,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9983,high
+ALERT-0094,2025-04-24 07:34:34,ACC100710,ACC100923,15217.44,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9983,high
+ALERT-0095,2025-04-30 04:13:03,ACC102620,ACC101573,20069.39,United Kingdom,Malta,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9983,high
+ALERT-0096,2025-06-21 05:43:24,ACC100602,ACC102124,6085.86,Malta,Australia,transfer,online_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9983,high
+ALERT-0097,2025-10-13 15:25:00,ACC102593,ACC100205,9401.09,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9983,high
+ALERT-0098,2025-07-11 04:47:12,ACC101126,ACC101506,9129.04,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9982,high
+ALERT-0099,2025-08-11 15:57:21,ACC101683,ACC100829,19757.7,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9982,high
+ALERT-0100,2025-10-13 17:25:53,ACC102805,ACC100205,9313.62,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9982,high
+ALERT-0101,2025-10-13 17:25:53,ACC100623,ACC100205,9572.67,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9982,high
+ALERT-0102,2025-03-30 21:03:00,ACC102361,ACC100248,9142.56,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9981,high
+ALERT-0103,2025-04-15 14:59:36,ACC100252,ACC101843,18951.05,United Kingdom,Seychelles,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9981,high
+ALERT-0104,2025-07-11 02:47:12,ACC100535,ACC101506,9307.68,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9981,high
+ALERT-0105,2025-10-14 22:25:53,ACC102593,ACC100205,9690.56,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9981,high
+ALERT-0106,2025-03-19 10:36:54,ACC101857,ACC101167,9313.41,United Kingdom,United Kingdom,transfer,unknown,structuring,rule: targeted typology,0.998,high
+ALERT-0107,2025-04-08 09:13:47,ACC101329,ACC102467,20028.65,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.998,high
+ALERT-0108,2025-08-12 04:31:05,ACC100572,ACC102256,9457.74,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.998,high
+ALERT-0109,2025-08-31 22:52:35,ACC100049,ACC102615,9275.35,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.998,high
+ALERT-0110,2025-04-29 11:37:00,ACC102013,ACC102518,9070.6,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9979,high
+ALERT-0111,2025-05-01 18:37:00,ACC100108,ACC102518,9477.18,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9979,high
+ALERT-0112,2025-05-17 00:42:07,ACC102686,ACC100693,9770.81,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9979,high
+ALERT-0113,2025-04-30 23:37:00,ACC102013,ACC102518,9222.23,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9978,high
+ALERT-0114,2025-06-06 04:28:29,ACC102095,ACC100815,28334.95,United Kingdom,Cayman Islands,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9978,high
+ALERT-0115,2025-07-11 03:47:12,ACC101126,ACC101506,9417.14,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9978,high
+ALERT-0116,2025-07-11 14:47:12,ACC100779,ACC101506,9284.55,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9978,high
+ALERT-0117,2025-10-04 12:59:28,ACC100495,ACC100052,1884.32,Cayman Islands,United Kingdom,transfer,unknown,"rapid_movement, high_risk_country",rule: targeted typology,0.9977,high
+ALERT-0118,2025-12-09 00:17:00,ACC102749,ACC102528,5973.02,United States,Seychelles,payment,wire_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9977,high
+ALERT-0119,2025-01-25 05:07:52,ACC102923,ACC101913,9765.11,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9976,high
+ALERT-0120,2025-08-12 10:31:05,ACC100572,ACC102256,9131.08,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9976,high
+ALERT-0121,2025-08-30 20:52:35,ACC102690,ACC102615,9074.4,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9975,high
+ALERT-0122,2025-01-18 04:03:07,ACC102503,ACC101721,2824.18,Netherlands,Seychelles,deposit,unknown,high_risk_country,rule: broad screen + anomaly corroboration,0.9974,high
+ALERT-0123,2025-01-31 03:14:51,ACC102192,ACC102324,9208.46,United Kingdom,United Kingdom,transfer,unknown,structuring,rule: targeted typology,0.9974,high
+ALERT-0124,2025-10-13 11:25:00,ACC102805,ACC100205,9899.97,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9974,high
+ALERT-0125,2025-11-08 04:46:42,ACC100212,ACC102627,4605.86,Seychelles,Australia,withdrawal,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.9974,high
+ALERT-0126,2025-02-04 02:15:55,ACC100314,ACC100290,2721.21,Canada,Seychelles,transfer,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.9973,high
+ALERT-0127,2025-05-20 11:59:54,ACC101486,ACC100871,7796.34,Australia,Cayman Islands,deposit,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.9973,high
+ALERT-0128,2025-08-12 01:31:05,ACC102750,ACC102256,9273.03,United Kingdom,United Kingdom,transfer,online_transfer,"structuring, rapid_movement",rule: targeted typology,0.9973,high
+ALERT-0129,2025-08-13 12:31:05,ACC100572,ACC102256,9898.72,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9972,high
+ALERT-0130,2025-12-01 05:20:37,ACC102342,ACC102494,1238.07,Ireland,Seychelles,payment,wire_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9972,high
+ALERT-0131,2025-03-31 06:03:00,ACC102361,ACC100248,9560.39,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9971,high
+ALERT-0132,2025-01-25 17:07:52,ACC102923,ACC101913,9063.58,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.997,high
+ALERT-0133,2025-01-29 20:55:39,ACC101688,ACC102533,9421.53,Malta,United Kingdom,withdrawal,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.997,high
+ALERT-0134,2025-02-11 16:13:02,ACC100363,ACC100043,17752.84,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.997,high
+ALERT-0135,2025-03-29 11:03:00,ACC101237,ACC100248,9352.59,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.997,high
+ALERT-0136,2025-03-19 13:36:54,ACC101857,ACC101167,9171.42,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9968,high
+ALERT-0137,2025-08-08 00:12:56,ACC101829,ACC100923,4890.22,Seychelles,Germany,payment,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.9968,high
+ALERT-0138,2025-08-20 22:35:16,ACC100646,ACC102908,9835.84,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9968,high
+ALERT-0139,2025-01-24 11:07:52,ACC100844,ACC101913,9091.62,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9967,high
+ALERT-0140,2025-01-31 19:14:51,ACC100862,ACC102324,9324.39,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9967,high
+ALERT-0141,2025-08-13 15:31:05,ACC102750,ACC102256,9563.74,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9967,high
+ALERT-0142,2025-05-15 14:42:00,ACC101983,ACC100693,9860.33,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9965,high
+ALERT-0143,2025-11-18 00:01:06,ACC100184,ACC102449,8963.17,Cayman Islands,United States,withdrawal,wire_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9963,high
+ALERT-0144,2025-01-11 11:04:24,ACC100816,ACC102041,42770.01,United Kingdom,Panama,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9962,high
+ALERT-0145,2025-02-11 13:13:00,ACC101333,ACC100363,17455.82,United Kingdom,United Kingdom,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.9961,high
+ALERT-0146,2025-04-15 08:59:36,ACC101353,ACC102901,18439.0,United Kingdom,United Kingdom,transfer,wire_transfer,"rapid_movement, round_amount",rule: targeted typology,0.996,high
+ALERT-0147,2025-10-25 04:45:47,ACC101331,ACC101392,3865.83,Seychelles,France,payment,unknown,high_risk_country,rule: broad screen + anomaly corroboration,0.9959,high
+ALERT-0148,2025-01-31 08:14:51,ACC102192,ACC102324,9681.04,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9955,high
+ALERT-0149,2025-10-12 02:46:21,ACC100349,ACC102886,1976.01,Malta,Ireland,deposit,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.9954,high
+ALERT-0150,2025-03-21 01:36:54,ACC100302,ACC101167,9233.34,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9953,high
+ALERT-0151,2025-11-11 08:30:28,ACC102279,ACC102556,9341.73,Malta,Canada,withdrawal,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.9953,high
+ALERT-0152,2025-01-25 18:07:52,ACC102503,ACC101913,9033.15,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9952,high
+ALERT-0153,2025-03-31 07:03:00,ACC102821,ACC100248,9558.28,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9951,high
+ALERT-0154,2025-03-18 07:29:17,ACC100121,ACC101854,8521.45,Seychelles,United States,transfer,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.995,high
+ALERT-0155,2025-08-30 13:52:35,ACC102690,ACC102615,9193.05,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.995,high
+ALERT-0156,2025-08-21 13:35:16,ACC101858,ACC102908,9402.7,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9949,high
+ALERT-0157,2025-04-24 11:34:34,ACC100923,ACC101972,15528.09,United Kingdom,Cyprus,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9948,high
+ALERT-0158,2025-07-10 20:47:12,ACC100779,ACC101506,9328.82,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9948,high
+ALERT-0159,2025-12-20 09:41:22,ACC100370,ACC100573,5436.33,Cyprus,Germany,payment,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.9947,high
+ALERT-0160,2025-02-11 17:13:02,ACC100043,ACC100446,17601.7,United Kingdom,Seychelles,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.9945,high
+ALERT-0161,2025-12-22 07:24:57,ACC100682,ACC101878,4292.03,Cyprus,Germany,withdrawal,wire_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9944,high
+ALERT-0162,2025-06-01 03:15:51,ACC100370,ACC102688,320.07,Cyprus,Ireland,deposit,unknown,high_risk_country,rule: broad screen + anomaly corroboration,0.9941,high
+ALERT-0163,2025-11-20 01:05:26,ACC102933,ACC101335,153.75,United States,Cyprus,transfer,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.9939,high
+ALERT-0164,2025-10-17 05:06:58,ACC100884,ACC100393,6821.9,United Kingdom,Malta,payment,online_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9937,high
+ALERT-0165,2025-12-29 00:53:02,ACC100869,ACC102456,208.87,Ireland,Panama,deposit,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.9933,high
+ALERT-0166,2025-06-01 05:01:52,ACC102833,ACC101585,3894.0,Spain,Spain,withdrawal,mobile_app,round_amount,rule: broad screen + anomaly corroboration,0.993,high
+ALERT-0167,2025-05-03 02:16:15,ACC102936,ACC102004,6618.77,Germany,Malta,withdrawal,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.9928,high
+ALERT-0168,2025-05-06 17:32:20,ACC102030,ACC100696,5468.88,Canada,Cayman Islands,withdrawal,atm_withdrawal,high_risk_country,rule: broad screen + anomaly corroboration,0.9928,high
+ALERT-0169,2025-08-11 14:31:05,ACC102750,ACC102256,9097.16,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9927,high
+ALERT-0170,2025-09-20 12:58:40,ACC101904,ACC101362,2070.37,Cayman Islands,Australia,payment,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.9925,high
+ALERT-0171,2025-11-04 02:14:47,ACC102523,ACC100631,399.15,Australia,Malta,withdrawal,wire_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9924,high
+ALERT-0172,2025-03-13 23:40:36,ACC102373,ACC101728,4612.79,Seychelles,Germany,payment,online_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9922,high
+ALERT-0173,2025-12-01 01:19:37,ACC100869,ACC101326,766.88,Ireland,Cyprus,transfer,wire_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9922,high
+ALERT-0174,2025-01-25 03:13:54,ACC101036,ACC102809,1543.08,Canada,Seychelles,withdrawal,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.992,high
+ALERT-0175,2025-02-12 06:59:00,ACC100709,ACC102892,2362.14,Spain,Panama,deposit,atm_withdrawal,high_risk_country,rule: broad screen + anomaly corroboration,0.992,high
+ALERT-0176,2025-07-19 10:07:26,ACC100825,ACC102393,4700.0,Netherlands,Australia,withdrawal,online_transfer,round_amount,rule: broad screen + anomaly corroboration,0.992,high
+ALERT-0177,2025-11-11 04:37:30,ACC101286,ACC101865,3749.07,Panama,United Kingdom,withdrawal,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.992,high
+ALERT-0178,2025-04-16 04:49:17,ACC102197,ACC102599,72.87,Ireland,Seychelles,payment,wire_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.9916,high
+ALERT-0179,2025-08-19 12:35:16,ACC101858,ACC102908,9382.02,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9912,high
+ALERT-0180,2025-08-11 20:46:24,ACC101615,ACC102602,556.27,Malta,Ireland,payment,wire_transfer,high_risk_country,rule: broad screen + anomaly corroboration,0.991,high
+ALERT-0181,2025-05-17 16:55:00,ACC102651,ACC100555,1140.43,United Kingdom,United Kingdom,transfer,atm_withdrawal,rapid_movement,rule: targeted typology,0.9908,high
+ALERT-0182,2025-05-18 18:39:00,ACC100602,ACC102541,211.26,Malta,United States,payment,atm_withdrawal,high_risk_country,rule: broad screen + anomaly corroboration,0.9908,high
+ALERT-0183,2025-03-29 08:03:00,ACC101237,ACC100248,9165.28,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9907,high
+ALERT-0184,2025-02-25 23:37:52,ACC102799,ACC100763,2453.39,Ireland,Malta,withdrawal,mobile_app,high_risk_country,rule: broad screen + anomaly corroboration,0.9902,high
+ALERT-0185,2025-08-20 04:41:00,ACC101459,ACC100382,2332.4,Australia,Cyprus,payment,card_payment,high_risk_country,rule: broad screen + anomaly corroboration,0.9901,high
+ALERT-0186,2025-04-30 18:37:00,ACC102013,ACC102518,9432.4,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9889,medium
+ALERT-0187,2025-08-20 17:35:16,ACC100646,ACC102908,9739.46,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9889,medium
+ALERT-0188,2025-03-19 08:36:54,ACC100302,ACC101167,9514.77,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9885,medium
+ALERT-0189,2025-05-16 15:42:07,ACC101983,ACC100693,9022.5,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9882,medium
+ALERT-0190,2025-01-24 11:07:52,ACC102503,ACC101913,9794.39,United Kingdom,United Kingdom,transfer,online_transfer,structuring,rule: targeted typology,0.9849,medium
+ALERT-0191,2025-10-05 09:26:43,ACC100052,ACC101749,2457.16,United Kingdom,United Kingdom,deposit,atm_withdrawal,rapid_movement,rule: targeted typology,0.9746,medium
+ALERT-0192,2025-12-06 15:05:00,ACC101849,ACC101364,1918.13,Spain,United Kingdom,withdrawal,card_payment,rapid_movement,rule: targeted typology,0.9684,medium
+ALERT-0193,2025-11-09 00:23:05,ACC100554,ACC100333,1599.83,Spain,United States,payment,wire_transfer,rapid_movement,rule: targeted typology,0.965,medium
+ALERT-0194,2025-10-11 07:21:28,ACC101240,ACC100951,2233.76,United States,Australia,payment,wire_transfer,rapid_movement,rule: targeted typology,0.9542,medium
+ALERT-0195,2025-12-06 02:56:41,ACC102022,ACC101849,1085.8,United States,Spain,payment,card_payment,rapid_movement,rule: targeted typology,0.9485,medium
+ALERT-0196,2025-10-10 21:17:01,ACC101292,ACC101240,1273.31,Germany,United States,transfer,card_payment,rapid_movement,rule: targeted typology,0.9484,medium
+ALERT-0197,2025-12-04 06:15:08,ACC100886,ACC102669,2987.97,Spain,Malta,transfer,card_payment,"rapid_movement, high_risk_country",rule: targeted typology,0.9465,medium
+ALERT-0198,2025-11-22 17:55:05,ACC102325,ACC102354,1190.46,Canada,Canada,payment,card_payment,rapid_movement,rule: targeted typology,0.9323,medium
+ALERT-0199,2025-07-12 22:57:40,ACC102539,ACC100461,1118.51,Ireland,Ireland,deposit,card_payment,rapid_movement,rule: targeted typology,0.9241,medium
+ALERT-0200,2025-05-18 05:12:33,ACC100555,ACC102295,1882.8,United Kingdom,Spain,transfer,atm_withdrawal,rapid_movement,rule: targeted typology,0.9188,medium
+ALERT-0201,2025-07-07 11:39:19,ACC100112,ACC101851,4933.12,Ireland,United Kingdom,withdrawal,online_transfer,rapid_movement,rule: targeted typology,0.8848,low
+ALERT-0202,2025-04-22 03:19:21,ACC101950,ACC102870,2607.29,Australia,Germany,withdrawal,card_payment,rapid_movement,rule: targeted typology,0.8813,low
+ALERT-0203,2025-03-15 18:47:29,ACC100946,ACC102988,2571.76,France,Germany,deposit,mobile_app,rapid_movement,rule: targeted typology,0.8654,low
+ALERT-0204,2025-12-04 16:05:28,ACC102669,ACC100161,2921.14,Malta,Australia,transfer,wire_transfer,"rapid_movement, high_risk_country",rule: targeted typology,0.8538,low
+ALERT-0205,2025-09-12 02:35:20,ACC102914,ACC102241,2436.73,United Kingdom,France,payment,online_transfer,rapid_movement,rule: targeted typology,0.8525,low
+ALERT-0206,2025-08-25 06:46:59,ACC100149,ACC102986,2438.92,Netherlands,Germany,deposit,online_transfer,rapid_movement,rule: targeted typology,0.8463,low
+ALERT-0207,2025-06-10 20:59:21,ACC100758,ACC100043,1415.79,France,Spain,deposit,unknown,rapid_movement,rule: targeted typology,0.8421,low
+ALERT-0208,2025-09-15 01:50:59,ACC102545,ACC101050,1515.64,Spain,Ireland,payment,card_payment,rapid_movement,rule: targeted typology,0.8205,low
+ALERT-0209,2025-08-12 14:41:32,ACC102750,ACC102413,461.45,United Kingdom,Spain,deposit,mobile_app,rapid_movement,rule: targeted typology,0.8015,low
+ALERT-0210,2025-03-15 16:54:27,ACC101919,ACC100946,1322.46,Ireland,France,withdrawal,atm_withdrawal,rapid_movement,rule: targeted typology,0.7955,low
+ALERT-0211,2025-03-07 04:02:35,ACC100788,ACC102299,2200.03,Spain,Netherlands,payment,card_payment,rapid_movement,rule: targeted typology,0.7751,low
+ALERT-0212,2025-01-04 19:22:38,ACC102688,ACC101382,1754.51,Ireland,Netherlands,withdrawal,wire_transfer,rapid_movement,rule: targeted typology,0.7684,low
+ALERT-0213,2025-07-06 22:00:22,ACC102492,ACC100112,1578.32,United Kingdom,Ireland,transfer,wire_transfer,rapid_movement,rule: targeted typology,0.7562,low
+ALERT-0214,2025-09-14 08:47:04,ACC100617,ACC102545,1304.87,Canada,Spain,transfer,mobile_app,rapid_movement,rule: targeted typology,0.7437,low
+ALERT-0215,2025-09-24 18:42:10,ACC102094,ACC101392,460.23,Canada,France,deposit,card_payment,rapid_movement,rule: targeted typology,0.7369,low
+ALERT-0216,2025-01-04 06:20:04,ACC100806,ACC102688,1376.65,Australia,Ireland,deposit,online_transfer,rapid_movement,rule: targeted typology,0.7302,low
+ALERT-0217,2025-03-06 22:18:18,ACC102918,ACC100788,1508.8,France,Spain,withdrawal,mobile_app,rapid_movement,rule: targeted typology,0.7218,low
+ALERT-0218,2025-08-11 20:59:16,ACC100889,ACC102750,1249.75,France,United Kingdom,payment,atm_withdrawal,rapid_movement,rule: targeted typology,0.713,low
+ALERT-0219,2025-08-25 11:14:59,ACC102986,ACC102923,3918.25,Germany,Australia,withdrawal,online_transfer,rapid_movement,rule: targeted typology,0.7085,low
+ALERT-0220,2025-11-08 14:19:34,ACC102980,ACC100554,1383.64,United States,Spain,transfer,online_transfer,rapid_movement,rule: targeted typology,0.7065,low
+ALERT-0221,2025-05-29 21:47:22,ACC101910,ACC100027,1298.61,France,United Kingdom,payment,online_transfer,rapid_movement,rule: targeted typology,0.7013,low
+ALERT-0222,2025-11-15 03:16:31,ACC100454,ACC101145,50.52,United States,Cyprus,payment,mobile_app,"rapid_movement, high_risk_country",rule: targeted typology,0.6887,low
+ALERT-0223,2025-11-22 14:19:17,ACC102304,ACC102325,1296.84,Ireland,Canada,deposit,atm_withdrawal,rapid_movement,rule: targeted typology,0.6439,low
+ALERT-0224,2025-09-12 15:06:00,ACC102241,ACC100486,1949.82,France,United States,payment,wire_transfer,rapid_movement,rule: targeted typology,0.4895,low
+ALERT-0225,2025-07-13 19:51:00,ACC100461,ACC100255,919.21,Ireland,Canada,transfer,mobile_app,rapid_movement,rule: targeted typology,0.4879,low
+ALERT-0226,2025-04-21 17:13:16,ACC101671,ACC101950,1780.15,France,Australia,transfer,card_payment,rapid_movement,rule: targeted typology,0.4878,low
+ALERT-0227,2025-05-30 13:00:09,ACC100027,ACC100817,1287.45,United Kingdom,Spain,transfer,online_transfer,rapid_movement,rule: targeted typology,0.315,low
+ALERT-0228,2025-06-11 08:40:41,ACC100043,ACC100686,1418.68,Spain,Ireland,transfer,online_transfer,rapid_movement,rule: targeted typology,0.2263,low

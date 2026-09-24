@@ -2,18 +2,23 @@
 
 [![tests](https://github.com/meghajoshi-ds/AML-Transaction-Monitoring/actions/workflows/tests.yml/badge.svg)](https://github.com/meghajoshi-ds/AML-Transaction-Monitoring/actions/workflows/tests.yml)
 
-A rules-plus-anomaly transaction monitoring system built around the problem that
-actually costs banks money: not missed laundering, but the volume of false alarms.
+**Transaction monitoring for anti-money-laundering, built around the problem
+that actually costs banks money: the volume of false alarms, not missed
+laundering.**
 
-**On 60,059 transactions it cuts false positives by 98.3%, from 5,245 to 89, and
-still catches all 139 known laundering cases. Alert precision rises from 2.6% to
-61%.** At a nominal 15 minutes to review and close one alert, that is about
-1,289 analyst-hours a year returned to investigation.
+**On 60,059 transactions it cuts false positives 98.3% (5,245 to 89) and still
+catches all 139 known cases. Alert precision goes from 2.6% to 61%, which at 15
+minutes a review is about 1,289 analyst-hours a year returned to investigation.**
 
-**[Open the interactive analyst queue](https://meghajoshi-ds.github.io/AML-Transaction-Monitoring/)** to filter all 228 alerts
-and see the evidence behind each one.
+**[Open the live analyst queue](https://meghajoshi-ds.github.io/AML-Transaction-Monitoring/)**
+to filter all 228 alerts and see the evidence behind each one.
 
-![False positive reduction](outputs/figures/fp_reduction.png)
+[![The analyst queue](outputs/figures/dashboard.jpg)](https://meghajoshi-ds.github.io/AML-Transaction-Monitoring/)
+
+The full write-up follows. Three findings worth the scroll: one rule generated
+96% of the alerts and contributed nothing, the dataset leaked its own labels
+through the ID column, and under adversarial testing the rule layer collapses
+while the model holds.
 
 ---
 
@@ -219,6 +224,59 @@ produces. Two bugs found in this project, a latent windowing error and a silent
 pandas-version bug, were both caught by tests that could not exist in a
 notebook.
 
+## Was Isolation Forest the right choice?
+
+Three unsupervised detectors on the same features, compared at the same
+228-alert budget, which is the only fair comparison in monitoring: analyst
+capacity is fixed, so the question is always "given N reviews, how many real
+cases do we find?"
+
+| Detector | Cases caught | Recall | Precision |
+|---|---:|---:|---:|
+| amount z-score (baseline) | 40 / 139 | 28.8% | 17.5% |
+| Local Outlier Factor | 13 / 139 | 9.3% | 5.7% |
+| Isolation Forest (shipped) | 120 / 139 | 86.3% | 52.6% |
+
+The naive baseline is the one that matters. If a model cannot beat "how large is
+this payment for this account", it is not earning its complexity. Isolation
+Forest triples it. Local Outlier Factor does markedly worse than the baseline
+here, which is what density-based methods tend to do in a mixed, mostly
+categorical feature space where the notion of a neighbourhood is weak.
+
+```bash
+python src/model_comparison.py
+```
+
+## Beyond single transactions: the account graph
+
+Everything above scores transactions. Laundering is not a transaction, it is a
+structure, and an analyst who sees ten alerts is often looking at one case.
+[`src/network.py`](src/network.py) looks for two structures visible only in the
+graph between accounts.
+
+**Funnels.** Beneficiaries taking near-threshold payments from several distinct
+senders. Fan-in alone is ordinary, a shop has many payers; fan-in *concentrated
+just under the reporting threshold* is not.
+
+> 7 accounts flagged out of 3,000, catching
+> 7 of the 12 known
+> structuring beneficiaries (58%). The top accounts take 8 to 12
+> near-threshold payments each, with over 90% of everything they receive sitting
+> in that band.
+
+**Chains.** A pays B, B pays C within 24 hours for a similar amount. Each hop
+looks like an ordinary transfer; the path is the pattern.
+
+> 30 hops across 47 transactions, 39 of them known cases.
+
+The point is the change of unit. Seven accounts to review is a different working
+day from 100 transaction alerts, and the chain view hands an analyst the whole
+path rather than one leg of it.
+
+Honest limits: funnel recall is 58%, not 100%. Beneficiaries fed by
+fewer than three distinct senders fall under the threshold, and lowering it
+would pull in ordinary accounts. This is a first cut, not a finished layer.
+
 ## SQL
 
 The rule layer also exists as SQL in [`sql/`](sql/), the way it would run
@@ -301,6 +359,11 @@ implementation. The rule-layer numbers are exact.
 carries the reason it surfaced rather than just a score: which rules fired, which
 channel escalated it, its anomaly percentile, and a priority.
 
+Alerts carry neutral references (`ALERT-0001` onward) rather than the source
+transaction IDs. The generator prefixed its planted rows `TXNS` and `TXNR`, so
+publishing the raw reference would let any reader pick out every true case from
+the prefix alone. The mapping is regenerable by rerunning the pipeline.
+
 ## Method notes
 
 * **Unsupervised by design.** A classifier trained on 139 labels would score
@@ -338,11 +401,12 @@ channel escalated it, its anomaly percentile, and a priority.
 
 ## With more time
 
-1. **Network analysis.** Build the account graph and look for cycles and layering
-   chains. The funnel structure found in the structuring band is already a graph
-   pattern being detected one transaction at a time.
+1. **Extend the network layer.** `src/network.py` finds funnels and two-hop
+   chains; the obvious next steps are longer paths, cycles, and community
+   detection over the account graph.
 2. **Account-level risk scoring**, so a mule is scored as an entity rather than as
-   a series of individually unremarkable transfers.
+   a series of individually unremarkable transfers, feeding back into the
+   transaction-level tiering.
 3. **Act on the evasion findings.** Build an adaptive tier that widens the
    model-only channel when rule-layer detections fall, so the system rebalances
    toward behaviour when thresholds stop working.

@@ -1,0 +1,11 @@
+{
+  "accounts_in_book": 3000,
+  "funnel_accounts_flagged": 7,
+  "structuring_beneficiary_accounts": 12,
+  "of_those_caught_as_funnels": 7,
+  "funnel_recall": 0.5833,
+  "chain_hops_found": 30,
+  "chain_transactions": 47,
+  "known_cases_in_chains": 39,
+  "transaction_alerts_for_the_same_ground": 139
+}

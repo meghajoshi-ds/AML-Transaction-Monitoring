@@ -164,7 +164,12 @@ def run():
         cases["anomaly_pct"], [0, .90, .99, 1.0],
         labels=["low", "medium", "high"], include_lowest=True)
     cases = cases.sort_values(["priority", "anomaly_pct"], ascending=[False, False])
-    cols = ["transaction_id", "timestamp", "sender_account", "receiver_account",
+    # Neutral references rather than the source ids. The generator prefixed its
+    # planted rows TXNS/TXNR, so publishing the raw reference would let anyone
+    # reading the case file pick out every true case from the prefix alone.
+    # The mapping is regenerable by rerunning the pipeline.
+    cases.insert(0, "alert_ref", [f"ALERT-{i:04d}" for i in range(1, len(cases) + 1)])
+    cols = ["alert_ref", "timestamp", "sender_account", "receiver_account",
             "amount", "sender_country", "receiver_country", "transaction_type",
             "channel", "reason", "escalation_channel", "anomaly_pct", "priority"]
     cases[cols].to_csv(config.CASE_MANAGEMENT, index=False)

@@ -1,0 +1,20 @@
+{
+  "amount z-score (baseline)": {
+    "cases_caught": 40,
+    "of": 139,
+    "recall": 0.2878,
+    "precision": 0.1754
+  },
+  "Local Outlier Factor": {
+    "cases_caught": 13,
+    "of": 139,
+    "recall": 0.0935,
+    "precision": 0.057
+  },
+  "Isolation Forest (shipped)": {
+    "cases_caught": 120,
+    "of": 139,
+    "recall": 0.8633,
+    "precision": 0.5263
+  }
+}
